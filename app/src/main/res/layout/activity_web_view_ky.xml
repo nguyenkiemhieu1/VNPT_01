@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.WebViewKyActivity">
+
+    <LinearLayout
+        android:id="@+id/loToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorTextBlue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/btnBack"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/_12dp"
+            android:src="@drawable/ic_keyboard_arrow_left_white_36dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_dangnhap_web"
+            android:textColor="@color/md_white"
+            android:textSize="@dimen/_18sp" />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            tools:src="@drawable/ic_keyboard_arrow_left_white_36dp" />
+    </LinearLayout>
+
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

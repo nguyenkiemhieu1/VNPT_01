@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/md_white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/md_blue_800">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/str_nhap_ma_otp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/_18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edt_otp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@drawable/background_border_1dp"
+            android:layout_width="match_parent"
+            android:padding="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:layout_height="?attr/actionBarSize" />
+        <LinearLayout
+            android:layout_margin="@dimen/_18dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/background_border_blue"
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_dongy"
+                android:src="@drawable/icon_sign_service"
+                />
+            <Button
+                android:background="@drawable/background_border_blue"
+                android:layout_marginLeft="@dimen/_12dp"
+                android:id="@+id/btn_resend_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_guilai_otp"
+                android:src="@drawable/icon_mobile_pki"
+                />
+            <Button
+                android:background="@drawable/border_btn_yellow"
+                android:layout_marginLeft="@dimen/_12dp"
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_huy"
+                android:src="@drawable/icon_sign_cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

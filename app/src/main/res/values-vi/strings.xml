@@ -1,0 +1,674 @@
+<resources>
+    <string name="app_name">VNPT E-Office</string>
+    <string name="str_login">Quản lý văn bản và điều hành</string>
+    <string name="app_name_tap_doan">iOffice 4.0\nTập Đoàn</string>
+    <string name="home">Trang chủ</string>
+    <string name="PROCESSING_REQUEST">Đang xử lý yêu cầu</string>
+    <string name="DOWNLOADING_REQUEST">Đang tải về! Vui lòng đợi...</string>
+    <string name="LOGOUT_REQUEST">Đang đăng xuất! Vui lòng đợi...</string>
+    <string name="UPDATING_REQUEST">Đang cập nhật dữ liệu!</string>
+    <string name="LOGINING_REQUEST">Đang đăng nhập hệ thống</string>
+    <string name="PLEASE_WAIT">Vui lòng đợi trong giây lát</string>
+    <string name="UPDATING_DATA">Đang cập nhật thông tin</string>
+    <string name="change_password_title">Đổi mật khẩu</string>
+    <string name="default_home_title">Thiết lập mặc định</string>
+    <string name="profile_title">Thông tin cá nhân</string>
+    <string name="tenDangNhap">Tên đăng nhập</string>
+    <string name="matKhau">Mật khẩu</string>
+    <string name="ghiNhoTaiKhoan">Ghi nhớ tài khoản</string>
+    <string name="dangKy">Đăng ký</string>
+    <string name="USERNAME_REQUIRED">Bạn chưa nhập Username</string>
+    <string name="PASSWORD_REQUIRED">Bạn chưa nhập Mật khẩu</string>
+    <string name="LOGIN_INVALID">Thông tin đăng nhập không chính xác</string>
+    <string name="OLD_PASSWORD_REQUIRED">Bạn chưa nhập Mật khẩu cũ</string>
+    <string name="NEW_PASSWORD_REQUIRED">Bạn chưa nhập Mật khẩu mới</string>
+    <string name="CONFIRM_PASSWORD_REQUIRED">Bạn cần Xác nhận mật khẩu mới</string>
+    <string name="USERNAME_INVALID_LENGTH">Username chỉ được nhập không quá 100 ký tự</string>
+    <string name="PASSWORD_INVALID_LENGTH">Password ít nhất phải dài 8 ký tự</string>
+    <string name="PASSWORD_INVALID_STRENGTH">Password phải bao gồm số, chữ cái thường, chữ cái hoa và ký tự đặc biệt</string>
+    <string name="USERNAME_INVALID_STRENGTH">Username không được chứa ký tự đặc biệt</string>
+    <string name="CONFIRM_PASSWORD_MISMACTH">Xác nhận mật khẩu không chính xác</string>
+    <string name="LOGIN_TITLE_ERROR">LỖI ĐĂNG NHẬP</string>
+    <string name="CHANGE_PASSWORD_TITLE_ERROR">LỖI ĐỔI MẬT KHẨU</string>
+    <string name="CHANGE_PASSWORD_ERROR">Thông tin đổi mật khẩu không chính xác</string>
+    <string name="DUPLICATE_PASSWORD_ERROR">Mật khẩu mới trùng với mật khẩu cũ</string>
+    <string name="CHANGE_PASSWORD_MESSAGE_SUCCESS">Đổi mật khẩu thành công</string>
+    <string name="TITLE_SUCCESS">THÀNH CÔNG</string>
+    <string name="TITLE_CONFIRM">XÁC NHẬN</string>
+    <string name="NETWORK_TITLE_ERROR">LỖI MẠNG</string>
+    <string name="DOWNLOAD_TITLE_ERROR">LỖI TẢI FILE</string>
+    <string name="TITLE_READED_ERROR">LỖI ĐÁNH DẤU</string>
+    <string name="LOGOUT_TITLE_ERROR">LỖI ĐĂNG XUẤT</string>
+    <string name="GET_INFO_TITLE_ERROR">LỖI LẤY THÔNG TIN</string>
+    <string name="CHANGE_DOC_TITLE_ERROR">LỖI CHUYỂN VĂN BẢN</string>
+    <string name="RECOVER_DOC_TITLE_ERROR">LỖI LẤY LẠI VĂN BẢN</string>
+    <string name="MARK_DOC_TITLE_ERROR">LỖI ĐÁNH DẤU VĂN BẢN</string>
+    <string name="MARK_SIGN_TITLE_ERROR">LỖI KÝ VĂN BẢN</string>
+    <string name="COMMENT_DOC_TITLE_ERROR">LỖI GỬI Ý KIẾN</string>
+    <string name="TITLE_NOTIFICATION">THÔNG BÁO</string>
+    <string name="NOT_PERSON_PROCESS">Chưa chọn người nhận xử lý chính</string>
+    <string name="NOT_PERSON">Chưa chọn đơn vị/cá nhân nhận văn bản</string>
+    <string name="NOT_PERSON_SAVE">Chưa chọn đơn vị/cá nhân lưu hồ sơ!</string>
+    <string name="NOT_PERSON_GROUP">Chưa chọn đơn vị/cá nhân nhận theo nhóm</string>
+    <string name="NOT_NOTE_SEND">Chưa nhập ghi chú chuyển văn bản</string>
+    <string name="NOT_CONTENT_SEND">Chưa nhập nội dung xử lý</string>
+    <string name="NOT_TYPE_CHANGE">Chưa chọn hình thức chuyển văn bản</string>
+    <string name="NOT_SUPPORT_TYPE_CHANGE">Văn bản chưa được hỗ trợ hình thức chuyển</string>
+    <string name="MARK_READ_SUCCESS">Đánh dấu đã đọc thành công</string>
+    <string name="NOT_PERSON_NOTIFY">Chưa chọn người nhận thông báo</string>
+    <string name="NOT_PERSON_DIRECT">Chưa chọn đơn vị/cá nhân nhận trực tiếp</string>
+    <string name="CHANGE_DOC_FAIL">Chuyển văn bản thất bại</string>
+    <string name="CHANGED_DOC">Văn bản đã được chuyển xử lý trước đó</string>
+    <string name="CHANGE_DOC_SUCCESS">Chuyển văn bản thành công</string>
+    <string name="READED_FAIL">Không thể đánh dấu đã đọc</string>
+    <string name="UNCHECK_READED">Chưa chọn thông báo nào</string>
+    <string name="NO_INTERNET_ERROR">Không có kết nối Mạng\nVui lòng kết nối và thử lại</string>
+    <string name="DOWNLOAD_FILE_ERROR">Không thể tải file về thiết bị</string>
+    <string name="SELECT_DOCUMENT_TYPE_SAME_ERROR">Không thể thao tác văn bản văn bản</string>
+    <string name="SELECT_DOCUMENT_TYPE_SAME_CONTENT_ERROR">Văn bản đã check không cùng bước thao tác!</string>
+    <string name="DOWNLOAD_FILE_SUCCESS">Tải file thành công</string>
+    <string name="FUNCTION_NO_SUPPORT_INFO">Chức năng đang được phát triển</string>
+    <string name="SCHEDULE_NO_SUPPORT_INFO">Không hiển thị được lịch họp</string>
+    <string name="REPORT_TYPE_REQUIRED">Chưa chọn loại báo cáo cần xem</string>
+    <string name="CLOSE_BUTTON">Đóng lại</string>
+    <string name="ACCEPT_BUTTON">Đồng ý</string>
+    <string name="NO_DATA">Không có dữ liệu văn bản</string>
+    <string name="NO_REPLY">Không có phản hồi nào</string>
+    <string name="NO_NOTIFY">Bạn không có thông báo nào</string>
+    <string name="NO_CONTACT">Không tìm thấy danh bạ</string>
+    <string name="WAITING_FOR_PROGRESSING_MENU">Văn bản chờ xử lý</string>
+    <string name="DOC_PROCESSED_MENU">Văn bản đến chờ xử lý</string>
+    <string name="DOC_PROCESSED_DAXULY_MENU">Văn bản đến đã xử lý</string>
+    <string name="DOC_EXPRIED_MENU">Văn bản đến hạn/quá hạn</string>
+    <string name="DOC_NOTIFICATION_MENU">Văn bản Xem để biết</string>
+    <string name="DOC_MARK_MENU">Văn bản đánh dấu</string>
+    <string name="HOME_MENU">Trang chủ</string>
+    <string name="DOCUMENT_MENU">Quản lý văn bản</string>
+    <string name="VANBANDEN_MENU">Văn bản đến</string>
+    <string name="VANBANDI_MENU">Văn bản đi</string>
+    <string name="VANBANDI_CANXULY_MENU">Văn bản đi cần xử lý</string>
+    <string name="VANBANDI_DAPHATHANH_MENU">Văn bản đi đã phát hành</string>
+    <string name="VANBANDI_DAXULY_MENU">Văn bản đi đã xử lý</string>
+    <string name="SETTING_MENU">Cài đặt hệ thống</string>
+    <string name="CONTACT_MENU">Danh bạ</string>
+    <string name="SCHEDULE_MANAGER_MENU">Quản lý lịch</string>
+    <string name="SCHEDULE_MENU">Lịch đơn vị</string>
+    <string name="CREATE_SCHEDULE_WEEK_SUCCESS">Tạo lịch tuần thành công!</string>
+    <string name="INPUT_SCHEDULE_WEEK_ERORR">Bạn cần phải nhập nội dung công tác!</string>
+    <string name="INPUT_CHAIR_OR_JOIN_ERORR">Không được để trống thành phần chủ trì hoặc thành phần tham gia!</string>
+    <string name="TIME_START_ERORR">Thời gian bắt đầu phải diễn ra trước thời gian kết thúc!</string>
+    <string name="TIME_END_ERORR">Thời gian kết thúc phải diễn ra sau thời gian bắt đầu!</string>
+    <string name="SCHEDULE_DEPART_MENU">Lịch phòng ban</string>
+    <string name="SCHEDULE_WEEK">Xem lịch tuần</string>
+    <string name="SCHEDULE_REGISTER">Đăng ký lịch tuần</string>
+    <string name="HOME_SCHEDULE_MENU">Lịch đơn vị</string>
+    <string name="NEWS_MENU">Trang tin tức</string>
+    <string name="REPORT_EXT_MENU">Báo cáo</string>
+    <string name="WORK_MENU">Quản lý công việc</string>
+    <string name="CHIDAO_MENU">Thông tin điều hành</string>
+    <string name="CHIDAO_GUI_MENU">Thông tin điều hành gửi</string>
+    <string name="CHIDAO_NHAN_MENU">Thông tin điều hành nhận</string>
+    <string name="REPORT_MENU">Báo cáo thống kê</string>
+    <string name="DEFAULT_HOME_MENU">Thiết lập mặc định</string>
+    <string name="LOG_OUT_MENU">Đăng xuất</string>
+    <string name="CHANGE_PASSWORD_MENU">Đổi mật khẩu</string>
+    <string name="REPORT_TEMPLATE">Template báo cáo</string>
+    <string name="NOTIFY_MENU">Thông báo</string>
+    <string name="DETAIL_SCHEDULE_TITLE">Chi tiết lịch họp</string>
+    <string name="DETAIL_SCHEDULE_BUSSINESS_TITLE">Chi tiết lịch công tác</string>
+    <string name="PROFILE_MENU">Thông tin cá nhân</string>
+    <string name="CONTACT_DETAIL">Thông tin danh bạ</string>
+    <string name="DOCUMENT_DIAGRAM">Sơ đồ luồng văn bản</string>
+    <string name="DOCUMENT_HISTORY">Lịch sử xử lý văn bản</string>
+    <string name="HINT_SEARCH_CONTACT"><font size="14"> Nhập tên(cá nhân/đơn vị), số điện thoại, email</font></string>
+    <string name="HINT_SEARCH"><font size="14">Tìm kiếm</font></string>
+    <string name="BTN_SEARCH">Tìm kiếm</string>
+    <string name="BTN_REFRESH">Tìm mới</string>
+    <string name="BTN_CANCEL">Hủy bỏ</string>
+    <string name="HINT_QUICK_SEARCH"><font size="14"> Tìm kiếm nhanh</font></string>
+    <string name="SEARCH_LABEL">Tìm</string>
+    <string name="STATUS_CONTACT_ACTIVE_LABEL">Được phép sử dụng</string>
+    <string name="STATUS_CONTACT_DEACTIVE_LABEL">Không được phép sử dụng</string>
+    <string name="IS_READ">Đã xem</string>
+    <string name="IS_NOT_READ">Chưa xem</string>
+    <string name="REMEMBER_LABEL">Ghi nhớ tài khoản</string>
+    <string name="UPDATE_BTN_LABEL">Cập nhật</string>
+    <string name="LOGIN_BTN_LABEL">Đăng nhập</string>
+    <string name="OLD_PASSWORD_LABEL">Mật khẩu cũ</string>
+    <string name="NEW_PASSWORD_LABEL">Mật khẩu mới</string>
+    <string name="CONFIRM_PASSWORD_LABEL">Xác nhận mật khẩu mới</string>
+    <string name="DOCUMENT_RECOVERED_SUCCESS">Lấy lại văn bản thành công</string>
+    <string name="DOCUMENT_RECOVERED_FAIL">Lấy lại văn bản không thành công</string>
+    <string name="DOCUMENT_RECOVERED_INVALID">Văn bản đã được xem, không thể lấy lại được</string>
+    <string name="MARKED_SUCCESS">Đánh dấu văn bản thành công</string>
+    <string name="NEW_NOTIFICATION">Bạn có 1 thông báo mới</string>
+    <string name="NOT_MARKED_SUCCESS">Văn bản đã được bỏ đánh dấu</string>
+    <string name="MARKED_FAIL">Đánh dấu văn bản thất bại</string>
+    <string name="NOT_MARKED_FAIL">Bỏ đánh dấu văn bản thất bại</string>
+    <string name="DOCUMENT_MARKED_FAIL">Đánh dấu văn bản không thành công</string>
+    <string name="DOCUMENT_SIGN_FAIL">Không thể thực hiện ký văn bản này</string>
+    <string name="NOT_FILE_SIGN">Không có file để ký</string>
+    <string name="FILE_ERROR_SIGN">Không thể ký được văn bản này</string>
+    <string name="DOCUMENT_SIGN_WAITING">Quá trình ký đang được thực hiện\nThông báo sẽ được gửi về trong ít phút</string>
+    <string name="NO_COMMENT_DOC_SEND">Không thể cho ý kiến đối với văn bản đi</string>
+    <string name="NOT_COMMENT">Chưa nhập ý kiến cho văn bản</string>
+    <string name="COMMENT_SUCCESS">Gửi ý kiến thành công</string>
+    <string name="COMMENT_ERROR">Không thể cho ý kiến đối với văn bản này</string>
+    <string name="DETAIL_DOCUMENT_LABEL">Chi tiết văn bản</string>
+    <string name="SEND_COMMENT_LABEL">Gửi ý kiến</string>
+    <string name="SEND_DOCUMENT_LABEL">Chuyển văn bản</string>
+    <string name="SEARCH_DOCUMENT_LABEL">Tra cứu văn bản</string>
+    <string name="ADVANCE_SEARCH_DOCUMENT_LABEL">Tìm kiếm nâng cao</string>
+    <string name="UNIT_LOG">Đơn vị: </string>
+    <string name="HUY_BTN_LABEL">Hủy</string>
+    <string name="NGAY_BH_TITLE_ERROR">LỖI NGÀY BAN HÀNH</string>
+    <string name="NGAY_BH_ERROR">Khoảng thời gian tìm kiếm của ngày ban hành không hợp lệ</string>
+    <string name="NGAY_ST_ERROR">Khoảng thời gian tìm kiếm của ngày soạn thảo không hợp lệ</string>
+    <string name="HAN_XL_ERROR">Khoảng thời gian tìm kiếm của hạn xử lý không hợp lệ</string>
+    <string name="NGAY_ST_TITLE_ERROR">LỖI NGÀY SOẠN THẢO</string>
+    <string name="HAN_XL_TITLE_ERROR">LỖI HẠN XỬ LÝ</string>
+    <string name="RANGE_DATE_ERROR">Ngày bắt đầu phải nhỏ hơn thúc</string>
+    <string name="SEND_NOTE">Ghi chú...</string>
+    <string name="SEND_CONTENT">Nội dung xử lý</string>
+    <string name="SEND_CONTENT_HANXULY">Hạn xử lý</string>
+    <string name="SEND_COMMENT">Nhập ý kiến muốn gửi tại đây</string>
+    <string name="NO_COMMENT">Không có ý kiến xử lý nào</string>
+    <string name="DEFAULT_TYPE_DOC">Chọn hình thức văn bản</string>
+    <string name="DEFAULT_FIELD_DOC">Chọn lĩnh vực của văn bản</string>
+    <string name="DEFAULT_PRIORITY_DOC">Chọn độ khẩn của văn bản</string>
+    <string name="DEFAULT_TYPE_CHANGE_DOC">Chọn hình thức chuyển văn bản</string>
+    <string name="RESULT_SEARCH">Kết quả tìm kiếm</string>
+    <string name="DETAIL_WORK">Chi tiết công việc</string>
+    <string name="PROFILE_WORK">Hồ sơ công việc</string>
+    <string name="LETTER">Thư mời</string>
+    <string name="CONFIRM_NOT_MARK">Văn bản đã được đánh dấu\nBạn có muốn bỏ đánh dấu văn bản?</string>
+    <string name="CONFIRM_LOGOUT">Đăng xuất tài khoản?</string>
+    <string name="SELECT_PERSON">Chọn người nhận văn bản</string>
+    <string name="HOUR_LABEL">Giờ</string>
+    <string name="FINISH_SUCCESS">Kết thúc Văn bản thành công</string>
+
+    <string name="DEFAULT_GROUP">---Chọn nhóm người nhận---</string>
+    <string name="ALL_GROUP">Tất cả các nhóm</string>
+    <string name="NO_TITLE_NAME">Thông báo không có tiêu đề</string>
+    <string name="NO_DATE">Chưa cập nhật ngày</string>
+    <string name="NO_TIME">Chưa cập nhật giờ</string>
+    <string name="NO_UPDATE_NAME">Họ và tên: N/A</string>
+    <string name="NO_UPDATE_POSITION">Chức vụ: N/A</string>
+    <string name="NO_UPDATE_PHONE">Số điện thoại: N/A</string>
+    <string name="NO_UPDATE_EMAIL">Email: N/A</string>
+
+    <string name="NEW_HISTORY">Chưa xử lý</string>
+    <string name="PROCESSING_HISTORY">Đang xử lý</string>
+    <string name="PROCESSED_HISTORY">Đã xử lý</string>
+
+    <string name="SELECT_JOB_POSSITION">---Chọn chức danh---</string>
+    <string name="SELECT_UNIT">---Chọn đơn vị---</string>
+
+    <string name="POSITION_ACCOUNT">Chức vụ</string>
+    <string name="GROUP_ACCOUNT">Nhóm</string>
+    <string name="STATUS_ACCOUNT">Trạng thái</string>
+    <string name="UNIT_ACCOUNT">Đơn vị</string>
+    <string name="ADDRESS_ACCOUNT">Địa chỉ</string>
+    <string name="LEVEL_ACCOUNT">Tr.độ học vấn</string>
+    <string name="RELIGION_ACCOUNT">Tôn giáo</string>
+    <string name="NATION_ACCOUNT">Dân tộc</string>
+    <string name="USERNAME_ACCOUNT">Tên đăng nhập</string>
+    <string name="EMAIL_ACCOUNT">Email</string>
+    <string name="PHONE_ACCOUNT">Điện thoại</string>
+    <string name="BORN_ACCOUNT">Ngày sinh</string>
+    <string name="SEX_ACCOUNT">Giới tính</string>
+
+    <string name="SEARCH_LABEL_BTN">Tìm kiếm</string>
+    <string name="ADD_LABEL_BTN">Thêm mới</string>
+    <string name="SAVE_LABEL_BTN">Lưu lại</string>
+    <string name="SEND_LABEL_BTN">Gửi thông báo</string>
+
+    <string-array name="navigation_drawer_items_left_menu">
+        <item>Trang chủ</item>
+        <item>Văn bản đến chờ xử lý</item>
+        <item>Văn bản đến đã xử lý</item>
+        <item>Văn bản đi cần xử lý</item>
+        <item>Văn bản đi đã phát hành</item>
+        <item>Văn bản đi đã xử lý</item>
+        <item>Văn bản xem để biết</item>
+        <item>Văn bản đánh dấu</item>
+        <item>Danh bạ</item>
+        <item>Lịch đơn vị</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_waiting">
+        <item>Chuyển</item>
+        <item>Đánh dấu</item>
+        <item>Gửi ý kiến</item>
+        <item>Ký văn bản</item>
+        <item>Luồng văn bản</item>
+        <item>Lịch sử xử lý</item>
+        <item>Hủy đánh dấu</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_expired">
+        <item>Chuyển</item>
+        <item>Đánh dấu</item>
+        <item>Gửi ý kiến</item>
+        <item>Ký văn bản</item>
+        <item>Luồng văn bản</item>
+        <item>Lịch sử xử lý</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_processed_all">
+        <item>Lấy lại</item>
+        <item>Đánh dấu</item>
+        <item>Luồng văn bản</item>
+        <item>Lịch sử xử lý</item>
+        <item>Hủy đánh dấu</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_notification_all">
+        <item>Đánh dấu</item>
+        <item>Luồng văn bản</item>
+        <item>Lịch sử xử lý</item>
+        <item>Hủy đánh dấu</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_mark_all">
+        <item>Đánh dấu</item>
+        <item>Luồng văn bản</item>
+        <item>Lịch sử xử lý</item>
+        <item>Hủy đánh dấu</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_expired_all">
+        <item>Đánh dấu</item>
+        <item>Luồng văn bản</item>
+        <item>Lịch sử xử lý</item>
+        <item>Hủy đánh dấu</item>
+    </string-array>
+
+    <string-array name="string_array_report">
+        <item>Chọn báo cáo</item>
+        <item>Báo cáo thống kê đơn vị</item>
+        <item>Báo cáo tổng hợp tháng</item>
+        <item>Báo cáo tổng hợp năm</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_processed">
+        <item>Đánh dấu</item>
+    </string-array>
+
+    <string-array name="string_array_schedule_type">
+        <item>Lịch công tác</item>
+        <item>Lịch họp</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tv_xuly">Xử lý</string>
+    <string name="tv_xuly_chinh">Xử lý chính</string>
+    <string name="tv_XLC">XLC</string>
+    <string name="tv_dong_xuly">Đồng xử lý</string>
+    <string name="tv_PH">PH</string>
+    <string name="tv_phoihop">Phối hợp</string>
+    <string name="tv_Xem">Xem</string>
+    <string name="tv_ho_ten_dv">Họ tên/Đơn vị</string>
+    <string name="tv_DonVi">Đơn vị</string>
+    <string name="tv_donggui">Đồng gửi</string>
+    <string name="tv_gui">Gửi</string>
+    <string name="tv_tructiep">Đơn vị/Cá nhân nhận trực tiếp</string>
+    <string name="tv_nguoi_nhan_thongbao">Người nhận thông báo</string>
+    <string name="tv_ho_ten">Họ tên</string>
+
+    <string name="tv_report_congviec">QUẢN LÝ CÔNG VIỆC</string>
+    <string name="tv_report_vanban">QUẢN LÝ VĂN BẢN</string>
+    <string name="tv_report_vanbanden">Văn bản đến</string>
+    <string name="tv_report_vanbandi">Văn bản đi</string>
+    <string name="tv_report_vanban_cho_xuly">Tổng số văn bản đang chờ xử lý</string>
+    <string name="tv_report_vanban_qua_han">Tổng số văn bản đến/quá hạn</string>
+    <string name="tv_report_vanban_da_xuly">Tổng số văn bản đã xử lý</string>
+    <string name="tv_report_vanban_ban_hanh">Tổng số văn bản đã ban hành</string>
+
+    <string name="tv_report_congviec_cho_xuly">Công việc đang chờ xử lý</string>
+    <string name="tv_report_congviec_quahan">Công việc đến/quá hạn</string>
+    <string name="tv_report_congviec_dangthuchien">Công việc đang thực hiện</string>
+    <string name="tv_report_congviec_dathuchien">Công việc đã thực hiện</string>
+    <string name="tv_report_congviec_dunghan">Công việc đã hoàn thành</string>
+    <string name="tv_congviec_dagiao">Công việc đã giao</string>
+    <string name="tv_congviec_duocgiao">Công việc được giao</string>
+    <string name="tv_congviec_taomoi">Tạo mới công việc</string>
+
+    <!--String van ban cho xu ly-->
+    <string name="tv_email">Email: </string>
+    <string name="tv_trangthai">Trạng thái: </string>
+    <string name="tv_kh">KH: </string>
+    <string name="tv_cqbh">CQBH: </string>
+    <string name="tv_cqbh_full">Cơ quan ban hành: </string>
+    <string name="tv_ngay_vb">Ngày VB: </string>
+    <string name="tv_do_khan">Độ khẩn: </string>
+    <string name="tv_file_dinh_kem">Tệp tin đính kèm: </string>
+    <string name="tv_tep_dinh_kem">Tệp đính kèm: </string>
+    <string name="tv_file_lien_quan">Tệp liên quan: </string>
+    <string name="tv_trichyeu">Trích yếu: </string>
+    <string name="tv_sokyhieu">Số ký hiệu: </string>
+    <string name="tv_ngayden">Ngày đến: </string>
+    <string name="tv_hinhthucvb">Hình thức VB: </string>
+    <string name="tv_sovanban">Số văn bản: </string>
+    <string name="tv_so_vanban">Sổ văn bản: </string>
+    <string name="tv_linhvuc">Lĩnh vực: </string>
+    <string name="tv_loailich">Xem lịch: </string>
+    <string name="tv_tuan">Thời gian: </string>
+    <string name="tv_hinhthuc">Hình thức văn bản: </string>
+    <string name="tv_hinhthuc_xl">Hình thức xử lý: </string>
+    <string name="tv_noidung_xl">Nội dung xử lý: </string>
+    <string name="tv_thongtin_xl">Thông tin xử lý: </string>
+    <string name="tv_ngayBH">Ngày ban hành: </string>
+    <string name="tv_ngayST">Ngày soạn thảo: </string>
+    <string name="tv_from">Từ ngày</string>
+    <string name="tv_to">Đến ngày</string>
+    <string name="tv_tieude">Tiêu đề</string>
+    <string name="tv_tieude_chidao">Tiêu đề: </string>
+    <string name="tv_noidung_chidao">Nội dung: </string>
+    <string name="tv_soden">Số đến: </string>
+    <string name="tv_sodendi">Số đến/đi: </string>
+    <string name="tv_hanxuly">Hạn xử lý: </string>
+    <string name="tv_sotrang">Số trang: </string>
+    <string name="tv_hinhthucgui">Hình thức gửi: </string>
+    <string name="tv_vanbanliequan">Văn bản liên quan</string>
+    <string name="tv_tonghopykienxuly">Tổng hợp ý kiến xử lý</string>
+    <string name="tv_vb_lienquan">Văn bản liên quan</string>
+    <string name="tv_tonghop_y_kien">Tổng hợp ý kiến xử lý</string>
+    <string name="tv_y_kien_xl">Ý kiến xử lý</string>
+    <string name="tv_y_toanvan">Toàn văn</string>
+    <string name="tv_y_note_tim_chinh_xac">Tìm kiếm chính xác (Chỉ hỗ trợ tìm kiếm trong nội dung file, không hỗ trợ tìm kiếm với các ký tự đặc biệt như ",""/""_""'")</string>
+    <string name="tv_more_search">Tìm kiếm thêm</string>
+    <string name="tv_user_xl">User xử lý: </string>
+    <string name="tv_btn_xem">Xem</string>
+    <string name="tv_xem_db">Xem để biết</string>
+
+    <string name="tv_chutri">Chủ trì: </string>
+    <string name="tv_thoigian">Thời gian :</string>
+    <string name="tv_fromdate_label">Bắt đầu</string>
+    <string name="tv_todate_label">Kết thúc</string>
+    <string name="tv_diadiem_label">Địa điểm: </string>
+    <string name="tv_diadiem_bussiness_label">Địa điểm công tác: </string>
+    <string name="tv_note_label">Ghi chú:</string>
+    <string name="tv_note_business_label">Ghi chú công tác</string>
+    <string name="tv_content_label">Nội dung</string>
+    <string name="tv_content_bussiness_label">Nội dung công tác</string>
+    <string name="tv_thoigian_bussiness_label">Thời gian công tác</string>
+    <string name="tv_nguoitao_label">Người đăng ký:</string>
+    <string name="tv_thanhphan">Thành phần</string>
+
+    <string name="tv_thoigian_label">Thời gian:</string>
+    <string name="tv_chuyentoi_xl">Chuyển tới: </string>
+    <string name="tv_chuyen_xl">Chuyển xử lý: </string>
+    <string name="tv_xin_y_kien">Xin ý kiến: </string>
+    <string name="tv_donggui_xl">Đồng gửi: </string>
+    <string name="tv_thaotac_xl">Thao tác: </string>
+
+    <!--Thiet lap mac dinh-->
+    <string name="title_thietlap_mac_dinh">Thiết lập mặc định</string>
+    <string name="tv_thietlap_macdinh">Chọn chức năng mặc định</string>
+    <string name="tv_chucnang">Chức năng/Màn hình</string>
+    <string name="tv_chon">Chọn</string>
+
+    <string name="tv_date_send">Ngày gửi: </string>
+    <string name="tv_date_create">Ngày tạo: </string>
+    <string name="tv_person_receive">Người nhận: </string>
+    <string name="tv_date_receive">Ngày nhận: </string>
+    <string name="tv_person_send">Người gửi: </string>
+    <string name="tv_select">Chọn</string>
+    <string name="tv_file">File: </string>
+    <string name="tv_action">Thao tác: </string>
+    <string name="tv_send">Đã gửi</string>
+    <string name="tv_draft">Soạn thảo</string>
+
+    <string name="tv_list_person">Danh sách người nhận: </string>
+    <string name="tv_file_select"><u>Chọn Tệp</u></string>
+    <string name="SEND_CHIDAO">Gửi thông tin điều hành</string>
+    <string name="CONGVIEC">Cập nhật thông tin công việc</string>
+    <string name="DETAIL_CHIDAO">Chi tiết thông tin điều hành</string>
+    <string name="INVALID_FILE_EXT">Hệ thống chỉ hỗ trợ các Tệp định dạng DOC, DOCX, XLS, XLSX, PDF và định dạng Tệp tin ảnh</string>
+    <string name="INVALID_FILE_SIZE">Dung lượng Tệp vượt quá 50MB</string>
+    <string name="DUPLICATE_FILE">Có Tệp trùng tên, Tệp sẽ không được đưa vào danh sách</string>
+    <string name="TIEUDE_REQUIERD">Chưa nhập Tiêu đề</string>
+    <string name="SAVE_CHIDAO_SUCCESS">Lưu thông tin thành công</string>
+    <string name="SAVE_PERSON_CHIDAO_SUCCESS">Cập nhật thông tin người nhận thành công</string>
+    <string name="SAVE_CHIDAO_ERROR">Lưu thông tin không thành công</string>
+    <string name="SAVE_PERSON_CHIDAO_ERROR">Cập nhật thông tin người nhận không thành công</string>
+    <string name="GET_PERSON_CHIDAO_ERROR">Lỗi lấy thông tin người nhận</string>
+    <string name="GET_PERSON_GROUP_ERROR">Lỗi lấy thông tin nhóm người nhận</string>
+    <string name="GET_PERSON_IN_GROUP_ERROR">Lỗi lấy danh sách người nhận trong nhóm</string>
+    <string name="PERSON_REQUIERD">Chưa chọn người nhận</string>
+    <string name="SEND_ALL_BUTTON">Gửi tất cả</string>
+    <string name="tv_status">Trạng thái</string>
+    <string name="tv_sent">Đã gửi</string>
+    <string name="tv_not_send">Chưa gửi</string>
+    <string name="tv_not_see">Chưa xem</string>
+    <string name="SEND_CHIDAO_SUCCESS">Thông tin điều hành đã được gửi thành công</string>
+    <string name="SEND_CHIDAO_ERROR">Gửi Thông tin điều hành không thành công</string>
+    <string name="REMOVE_PERSON_SUCCESS">Người dùng đã được loại khỏi danh sách gửi</string>
+    <string name="REMOVE_PERSON_ERROR">Xóa người dùng không thành công</string>
+    <string name="GET_FLOW_ERROR">Lỗi lấy danh sách quá trình trao đổi</string>
+    <string name="GET_FILE_ERROR">Lỗi lấy danh sách Tệp đính kèm</string>
+    <string name="GET_SCHEDULE_BOSS_ERROR">Lỗi lấy lịch đơn vị</string>
+    <string name="CHIDAO_NOT_FOUND">Không tìm thấy thông tin điều hành</string>
+    <string name="SENT_ALL">Thông tin điều hành đã được gửi</string>
+    <string name="FORWARD_CHIDAO">Chuyển tiếp</string>
+    <string name="REPLY_CHIDAO">Trả lời</string>
+    <string name="REPLY_ALL_CHIDAO">Trả lời tất cả</string>
+    <string name="DELETE_CHIDAO_ERROR">Lỗi xóa thông tin điều hành</string>
+    <string name="DELETE_CHIDAO_SUCCESS">Xóa thành công thông tin điều hành</string>
+    <string name="LIST_RECEIVE">Danh sách người nhận</string>
+    <string name="tv_ngayxem">Ngày xem: </string>
+    <string name="NO_PERSON">Không tìm thấy kết quả</string>
+    <string name="EDIT_CHIDAO">Chỉnh sửa thông tin điều hành</string>
+    <string name="LIST_FILE">Danh sách tệp đính kèm</string>
+    <string name="GET_DETAIL_ERROR">Lỗi lấy thông tin điều hành</string>
+    <string name="NO_URL_ERROR">Không tìm thấy đường dẫn tương đối của Tệp</string>
+    <string name="NO_SUPPORT_PDF_ERROR">Thiết bị không hỗ trợ trình đọc Tệp PDF</string>
+    <string name="NO_SUPPORT_WORD_ERROR">Thiết bị không hỗ trợ trình đọc Tệp WORD</string>
+    <string name="NO_SUPPORT_EXCEL_ERROR">Thiết bị không hỗ trợ trình đọc Tệp EXCEL</string>
+    <string name="SAVE_DRAFT_BTN">Lưu nháp</string>
+    <string name="BACK_BTN">Quay lại</string>
+    <string name="SELECT_PERSON_BTN">Chọn người nhận</string>
+    <string name="SELECT_ADD_PERSON_BTN">Thêm người nhận</string>
+    <string name="SEND_BUTTON">Gửi</string>
+    <string name="NOT_SENT_ALL">Chưa chọn người nhận\nVui lòng chọn lại người nhận</string>
+    <string name="SENT_SENDED">Người nhận được chọn đã được gửi. Vui lòng chọn người nhận khác!</string>
+    <string name="NO_DATA_CHIDAO">Không có dữ liệu thông tin điều hành</string>
+
+    <string name="tv_ketthuc_vanban">Kết thúc văn bản</string>
+    <string name="tv_tudong_giaoviec">Tự động giao việc</string>
+    <string name="str_ERROR_DIALOG">Có lỗi xảy ra!\nVui lòng thử lại sau!</string>
+    <string name="str_ERROR_END_DOCUMENT_DIALOG">Lỗi kết thúc văn bản!</string>
+    <string name="str_ERROR_TICK_DOCUMENT_DIALOG">Lỗi đánh dấu văn bản!</string>
+    <string name="str_ERROR_CHECK_DOCUMENT_DIALOG">Lỗi kiểm tra thông tin văn bản!</string>
+    <string name="str_ERROR_CHANGE_ACCOUNT_DIALOG">Thay đổi account thất bại!</string>
+    <string name="notification_error_ssl_cert_invalid">Lỗi khi xác thực SSL, Bạn vui lòng tiếp tục để xem file?</string>
+    <string name="tv_ngay_hop">%1$s</string>
+    <string name="DETAIL_LICHHOP">Thông tin chi tiết lịch họp</string>
+    <string name="title_activity_detail_work_management">DetailWorkManagementActivity</string>
+    <string name="str_ten_cong_viec">Tên công việc</string>
+    <string name="str_Unread">Chưa đọc</string>
+    <string name="str_All">Tất cả</string>
+    <string name="str_ten_cong_viec_binding">*Tên công việc</string>
+    <string name="str_SELECT_ALL">Chọn tất cả</string>
+    <string name="str_FINISH_ALL">Kết thúc hàng loạt</string>
+    <string name="str_SEND_SAME">Chuyển đồng thời</string>
+    <string name="str_cong_viec_don_vi">Công việc của đơn vị</string>
+    <string name="str_noidung_cong_viec">*Nội dung công việc</string>
+    <string name="str_noidung_danh_gia">Nội dung đánh giá</string>
+    <string name="str_cap_nhat_tinh_trang_cong_viec">Cập nhật tình trạng công việc</string>
+    <string name="string_ngay_het_han">*Ngày hết hạn</string>
+    <string name="str_file_attatch">File đính kèm</string>
+    <string name="string_chon_donvi_canhan">Chọn đơn vị/ cá nhân xử lý</string>
+    <string name="str_danhsach_canhan_donvi">Danh sách cá nhân/đơn vị</string>
+    <string name="string_canhan_donvi_xuly">Đơn vị/Cá nhân xử lý</string>
+    <string name="str_xin_gia_han">Xin gia hạn</string>
+    <string name="str_xemthem_trinh_xu_ly">Xem thêm trình xử lý</string>
+    <string name="str_capnhap_tinhtrang">Cập nhật tình trạng</string>
+    <string name="str_tao_cong_viec">Tạo công việc con</string>
+    <string name="str_thong_tin">Thông tin</string>
+    <string name="str_ca_nhan">Cá nhân</string>
+    <string name="str_cong_viec_con">Công việc con</string>
+    <string name="str_canhan_donvi_thuchien">Cá nhân/ đơn vị thực hiện</string>
+    <string name="txt_xlc_ph_xem">(XLC) Xử lý chính\t (PH) Phối hợp\t (XEM) Xem</string>
+    <string name="text_icon_delete">&#xf014;</string>
+    <string name="text_sucssess_create_work">Tạo công việc con thành công</string>
+    <string name="text_sucssess_add_person">Cập nhật người xử lý thành công</string>
+    <string name="text_sucssess_update_status_work">Cập nhật tình trạng công việc thành công</string>
+    <string name="text_danhgia">Bạn chưa nhập nội dung</string>
+    <string name="text_tencongviec">Bạn chưa nhập tên công việc</string>
+    <string name="text_noiduncongviec">Bạn chưa nhập nội dung công việc</string>
+    <string name="str_noi_dung_y_kien">Nội dung ý kiến</string>
+    <string name="str_ngay_het_han">Ngày hết hạn:</string>
+    <string name="str_nhap_ma_otp">Nhập mã OTP</string>
+    <string name="str_tai_file_toi_thu_muc">Bạn đã tải file thành công tới thư mục Download/</string>
+    <string name="permission_rationale_title">Yêu cầu cho phép cho ứng dụng!</string>
+    <string name="permission_rationale_message">Sự cho phép này là cần thiết để sử dụng chức năng này, vì vậy xin vui lòng, cho phép nó!</string>
+    <string name="str_dialog_thongbao"> Thông báo </string>
+    <string name="str_dialog_kythanhcong"> Ký Thành Công !</string>
+    <string name="str_dialog_kychuathanhcong"> Ký chưa thành công !</string>
+    <string name="str_dialog_resend_otp_faild"> Gửi lại mã OTP thất bại !</string>
+    <string name="DOWNLOADING">Vui lòng đợi...</string>
+    <string name="str_button_tieptuchucnang"> Bạn có muốn tiếp tục chức năng không ?</string>
+    <string name="str_button_tieptuc"> Tiếp tục</string>
+    <string name="str_button_quaylai"> Quay lại</string>
+
+    <string name="str_err_400">Server đang xử lý yêu cầu. Vui lòng thao tác lại</string>
+
+    <string name="str_chuachon_xlc">Giao việc cần phải chọn vào cá nhân/đơn vị nhận có vai trò XLC</string>
+    <string name="text_sucssess_create_work_new">Tạo công việc mới thành công</string>
+    <string name="text_title_create_work_new">Tạo công việc mới</string>
+    <string name="check_create_work_new">Cần nhập hạn xử lý công việc trước khi chọn đơn vị/cá nhân.</string>
+
+    <string name="str_tai_tep_tin">Tải tệp tin</string>
+    <string name="check_ten_cong_viec">Tên công việc không được để trống !</string>
+    <string name="check_chon_don_vi">Giao việc cần phải chọn vào cá nhân/đơn vị !</string>
+    <string name="check_noidung_cong_viec">Nội dung công việc không được để trống !</string>
+    <string name="check_ngay_het_han_cong_viec">Ngày hết hạn không được để trống !</string>
+
+    <string name="str_web">Bạn vui lòng truy cập website để xử lý thông báo này !</string>
+    <string name="str_error">Có lỗi xảy ra! Vui lòng thử lại sau!</string>
+
+    <string name="str_language">Chọn ngôn ngữ</string>
+    <string name="str_vn">Tiếng Việt</string>
+    <string name="str_en">Tiếng Anh</string>
+    <string name="str_ls">Tiếng Lào</string>
+
+    <string name="tv_capnhat">Cập nhật</string>
+    <string name="tv_dong">Đóng</string>
+    <string name="tv_tai_tep">Tải tiệp tin</string>
+    <string name="tv_tao_congviec">Tạo công việc</string>
+    <string name="tv_xemthem">Xem thêm</string>
+    <string name="tv_chuyentiep">Chuyển tiếp</string>
+    <string name="tv_traloi">Trả lời</string>
+    <string name="tv_traloi_tatca">Trả lời tất cả</string>
+    <string name="tv_guitoi">Gửi tới:</string>
+    <string name="tv_danhdau">Đánh dấu</string>
+    <string name="tv_chuyen_xemdebiet">Chuyển Xem để biết</string>
+    <string name="tv_lichsu">Lịch sử</string>
+    <string name="tv_chuyen_xuly">Chuyển xử lý</string>
+    <string name="tv_chuyen">Chuyển</string>
+    <string name="tv_cho_ykien">Cho ý kiến</string>
+    <string name="tv_bo_danhdau">Bỏ Đánh dấu</string>
+    <string name="tv_ketthuc">Kết thúc</string>
+    <string name="tv_thamgia">Tham gia:</string>
+    <string name="tv_diadiem">Địa điểm:</string>
+    <string name="tv_ngay_giaoviec">Ngày giao việc: </string>
+    <string name="tv_ngay_hethan">Ngày hết hạn: </string>
+    <string name="tv_do_uutien">Mức độ ưu tiên: </string>
+    <string name="tv_trangthai_danhgia">Trạng thái đánh giá:</string>
+    <string name="tv_noidung_danhgia">Nội dung đánh giá:</string>
+    <string name="tv_thongtin">Thông tin:</string>
+    <string name="tv_gan_nguoidung">Gán người dùng:</string>
+    <string name="tv_gui_thongbao">Gửi thông báo</string>
+    <string name="tv_vuilong_doi">Vui lòng đợi trong giây lát...</string>
+    <string name="tv_gui_sms">Gửi SMS</string>
+    <string name="tv_capnhat_thongtin">Cập nhật thông tin công việc</string>
+    <string name="tv_ngay_het_han">Ngày hết hạn</string>
+    <string name="tv_luu">Lưu</string>
+    <string name="tv_mau">Mẫu</string>
+    <string name="tv_xoa">Xóa</string>
+    <string name="tv_khong_dulieu">Không có dữ liệu</string>
+    <string name="tv_chon_theonhom">Chọn theo nhóm đơn vị</string>
+    <string name="tv_chon_theonhom_canhan">Chọn theo nhóm cá nhân</string>
+    <string name="tv_chon_nguoinhan">Nhấn vào để chọn người nhận</string>
+    <string name="tv_thugon">Thu gọn</string>
+    <string name="tv_nhan_chon">Nhấn vào để chọn đơn vị liên thông nội bộ</string>
+    <string name="tv_nhan_chon_nguoinhan"> Nhấn vào để chọn người nhận</string>
+    <string name="tv_giu_3s">Ấn giữ 3s để chọn chuyển đồng thời</string>
+    <string name="tv_chon_lienthong">Nhấn vào để chọn đơn vị liên thông nội bộ</string>
+    <string name="tv_tai_lentep">Tải tệp tin</string>
+    <string name="tv_dangnhap_web">Đăng nhập</string>
+    <string name="tv_danhgia_congviec">Đánh giá công việc</string>
+    <string name="tv_gui_ykien">Gửi ý kiến</string>
+    <string name="tv_cho_ykien_vanban">Nhập nội dung gửi ý kiến</string>
+    <string name="tv_chon_donvi">Chọn Đơn vị</string>
+    <string name="tv_chon_canhan">Chọn cá nhân</string>
+    <string name="tv_ten_donvi">Tên đơn vị</string>
+    <string name="tv_tinhtrang_xuly">Tình trạng xử lý: </string>
+    <string name="tv_ngay_batdau">Ngày bắt đầu:  </string>
+    <string name="tv_donvi_xuly">Đơn vị/Cá nhân xử lý:  </string>
+    <string name="tv_vaitro">Vai trò xử lý:  </string>
+    <string name="tv_tinhtrang">Tình trạng:  </string>
+    <string name="tv_ngay_ketthuc">Ngày kết thúc: </string>
+    <string name="tv_sang">Buổi sáng </string>
+    <string name="tv_chieu">Buổi chiều </string>
+    <string name="tv_khongco_lich">Không có lịch họp </string>
+    <string name="tv_ghichu">Ghi chú</string>
+    <string name="tv_dc">Đ/c:</string>
+    <string name="tv_sang_lich">Sáng:</string>
+    <string name="tv_chieu_lich">Chiều:</string>
+    <string name="tv_chuagui">Chưa gửi</string>
+    <string name="tv_dongy">Đồng ý</string>
+    <string name="tv_guilai_otp">Gửi lại OTP</string>
+    <string name="tv_huy">Hủy</string>
+    <string name="tv_lanhdao_giaoviec">Lãnh đạo giao việc:</string>
+    <string name="tv_mucdo_uutien">Mức độ ưu tiên:</string>
+
+    <string name="str_themnguoi_xuly">Thêm người xử lý</string>
+    <string name="str_chon_donvi_canhan">Phải chọn đơn vị/cá nhân xử lý chính</string>
+    <string name="str_tao_congviec_con">Tạo công việc con</string>
+    <string name="str_nhap_lieu">Cần nhập liệu đủ các trường Tên công việc, Nội dung, hạn xử lý</string>
+    <string name="str_ban">Bạn</string>
+    <string name="str_va">và</string>
+    <string name="str_nguoi_khac">người khác</string>
+    <string name="str_rutgon">Rút gọn</string>
+    <string name="str_xemthem">Xem thêm</string>
+    <string name="str_huy_danhgiau">Hủy đánh dấu</string>
+    <string name="str_danhgiau">Đánh dấu</string>
+    <string name="str_thuong">Thường</string>
+    <string name="str_khong_chuyenduoc">Không thể thực hiện chuyển văn bản</string>
+    <string name="str_da_hoanthanh">Đã hoàn thành</string>
+    <string name="str_cho_pheduyet">Chờ phê duyệt</string>
+    <string name="str_da_pheduyet">Đã phê duyệt</string>
+    <string name="str_chua_hoanthanh">Chưa hoàn thành</string>
+    <string name="str_chitiet_congviec">Chi tiết công việc</string>
+    <string name="str_co_filetrung">Có file trùng</string>
+    <string name="str_khongthay_danhsach">Không tìm thấy danh sách người nhận</string>
+    <string name="str_tientrinh_xuly">Tiến trình xử lý</string>
+    <string name="str_loidongbo">Có lỗi khi đồng bộ danh bạ</string>
+    <string name="str_cho_xuly">Chờ xử lý</string>
+    <string name="str_dang_xuly">Đang xử lý</string>
+    <string name="str_da_xuly">Đã xử lý</string>
+    <string name="str_vuilong_capnhat">Bạn vui lòng truy cập website để xử lý thông báo này</string>
+    <string name="str_chon_theonhom">Chọn theo nhóm người nhận</string>
+    <string name="str_chon_theonhom_donvi">Chọn theo nhóm đơn vị nhận</string>
+    <string name="str_ngay_hethan">Ngày hết hạn đơn vị/cá nhân:</string>
+    <string name="str_nho_hon">phải nhỏ hơn hạn chung !</string>
+    <string name="str_capnhat_tinhtrang">Cập nhật tình trạng công việc</string>
+    <string name="str_ky_thanhcong">Ký Thành Công !</string>
+    <string name="str_ky_khong_thanhcong">Ký chưa thành công !</string>
+    <string name="str_nhap_otp">Vui lòng nhập mã OTP !</string>
+    <string name="str_gui_otp_thanhcong">Gửi mã OTP thành công !</string>
+    <string name="str_gui_danhgia_thanhcong">Đã gửi đánh giá thành công</string>
+    <string name="str_tatca">Tất cả</string>
+    <string name="str_viec_canhan">Việc cho cá nhân</string>
+    <string name="str_viec_donvi">Việc cho đơn vị</string>
+    <string name="str_tieptuc">Tiếp tục</string>
+    <string name="str_huybo">Huỷ bỏ</string>
+    <string name="str_sua">Sửa</string>
+    <string name="str_xoa">Xoá</string>
+    <string name="str_dagui">Đã gửi</string>
+
+</resources>

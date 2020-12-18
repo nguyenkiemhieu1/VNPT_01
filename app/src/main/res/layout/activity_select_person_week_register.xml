@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_200"
+    tools:context=".view.activity.SelectPersonWeekRegisterActivity">
+
+    <include
+        android:id="@+id/toolbarSelectPerson"
+        layout="@layout/toolbar_select_person"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSelectPerson">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="4"
+            android:background="@drawable/background_search_name_select_person"
+            android:fontFamily="@font/arial"
+            android:hint="@string/tv_ho_ten"
+            android:paddingLeft="@dimen/_8dp"
+            android:textColor="@color/md_black"
+            android:textColorHint="@color/md_grey_600" />
+
+        <View
+            android:layout_width="@dimen/_5dp"
+            android:layout_height="0dp" />
+
+        <Spinner
+            android:id="@+id/sUnit"
+            style="@style/spinner_style_c"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textColor="@color/md_black" />
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:id="@+id/layoutPerSon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

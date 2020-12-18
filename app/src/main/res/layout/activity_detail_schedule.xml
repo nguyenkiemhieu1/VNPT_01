@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_200"
+    >
+    <LinearLayout
+        android:id="@+id/container_toolbar_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarDetail"
+            layout="@layout/toolbar_detail_schedule"/>
+
+        <LinearLayout
+            android:background="@color/md_white"
+            android:layout_margin="@dimen/_12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_chutri">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_chutri" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/chuTri"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    tools:text="chu tri " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_thamgia">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_thamgia" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/thamGia"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="tham gia " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_diadiem">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_diadiem" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/phongHop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="phong hop " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_thoigian">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_thoigian" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/thoiGian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    tools:text="thoi gian" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_tieude">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_tieude_chidao" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/tieuDe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="tieu de " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_noidung">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_noidung_chidao" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/noiDung"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="Nội dung " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ln_ghichu">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_note_label" />
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/ghiChu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="ghi chu " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutFileDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_file_dinh_kem" />
+                <LinearLayout
+                    android:id="@+id/layout_file_attach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_10dp"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_36dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_btndong">
+                <TextView
+                    android:id="@+id/dong"
+                    android:background="@drawable/border_btn_gren"
+                    android:textColor="@color/md_white"
+                    android:text="@string/tv_dong"
+                    android:paddingTop="@dimen/_12dp"
+                    android:paddingBottom="@dimen/_12dp"
+                    android:paddingLeft="@dimen/_24dp"
+                    android:paddingRight="@dimen/_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

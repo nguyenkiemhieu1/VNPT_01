@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:singleLine="true"
+            android:layout_marginEnd="@dimen/_8dp"
+            android:layout_marginStart="@dimen/_8dp"
+            android:gravity="center"
+            android:text="@string/HOME_MENU"
+            android:textColor="#fff"
+            android:textSize="@dimen/_20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/image_thongbao"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/image_thongbao"
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:src="@drawable/thongbao_512x512"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tong_thong_bao"
+            android:layout_width="@dimen/_16dp"
+            android:layout_height="@dimen/_16dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_thong_bao"
+            android:gravity="center"
+            android:text="19"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/_10sp"
+            app:layout_constraintEnd_toEndOf="@+id/image_thongbao"
+            app:layout_constraintTop_toTopOf="@+id/image_thongbao" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_6dp"
+            android:background="@drawable/background_border_top_blue1"
+            android:fontFamily="@font/arial"
+            android:gravity="center|left"
+            android:paddingLeft="@dimen/_12dp"
+            android:textColor="@color/md_white"
+            android:textStyle="bold"
+            tools:text="8h30" />
+
+        <LinearLayout
+            android:id="@+id/itemLich"
+            android:background="@color/md_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+
+                    android:text="@string/tv_noidung_chidao" />
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/noiDung"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    tools:text="Nội dung " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_chutri" />
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/chuTri"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="chu tri " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_thamgia" />
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/thanhPhan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="Thanh phan " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_diadiem" />
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/diaDiem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="Dia diem " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_12dp"
+                    android:text="@string/tv_ghichu" />
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/ghiChu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    tools:text="ghi chu " />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

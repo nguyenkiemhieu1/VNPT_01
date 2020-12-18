@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn vị/Cá nhân xử lý: "
+            android:textColor="@color/colorTextGrey"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/tv_unit_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
+            tools:text="VNPT Software" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_noidung_chidao"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/tv_handling_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            tools:text="VNPT Software" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_file_dinh_kem"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="@dimen/_16sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            tools:text="VNPT Software" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_tinhtrang_xuly"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/tv_content_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            tools:text="VNPT Software" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_ngay_batdau"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/tv_date_begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            tools:text="VNPT Software" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_ngay_hethan"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/tv_date_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5dp"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            tools:text="VNPT Software" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/md_black"
+        android:paddingTop="@dimen/_8dp" />
+</LinearLayout>

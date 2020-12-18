@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:id="@+id/itemPersons">
+    <LinearLayout
+        android:id="@+id/layoutPersonDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35dp">
+        <TextView
+            android:id="@+id/txtName"
+            android:textSize="@dimen/_15sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:paddingLeft="@dimen/_5dp"
+            android:fontFamily="@font/arial"
+            android:textColor="@color/md_black"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            tools:text="Tên người nhận"/>
+        <ImageView
+            android:id="@+id/btnRemove"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_remove_file"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/md_grey_800"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".view.fragment.HomeFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/_4dp"
+        android:paddingBottom="@dimen/_4dp"
+        android:clipToPadding="false"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp" />
+
+</FrameLayout>

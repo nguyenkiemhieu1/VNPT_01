@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white"
+    android:orientation="vertical"
+    tools:context=".view.activity.UpdateStatusWorkActivity">
+
+    <include
+        android:id="@+id/toolbarDetail"
+        layout="@layout/toolbar_send_chidao" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_16dp">
+
+            <Spinner
+                android:id="@+id/spin_status"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_10dp"
+                style="@style/spinner_style_radius"
+                android:padding="@dimen/_10dp">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/edt_content_work"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:gravity="left"
+                android:hint="@string/tv_content_label"
+                android:padding="@dimen/_10dp"
+                android:textColor="@color/md_black"
+                android:textColorHint="@color/md_grey_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/tv_tep_dinh_kem"
+                    android:textColor="@color/md_black" />
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btn_upload_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:paddingLeft="@dimen/_20dp"
+                    android:paddingTop="@dimen/_10dp"
+                    android:paddingRight="@dimen/_20dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:text="@string/tv_tai_lentep"
+                    fancy:fb_defaultColor="@color/md_grey_500"
+                    fancy:fb_radius="@dimen/_5dp"
+                    fancy:fb_textColor="@color/md_black" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:visibility="gone"
+                android:id="@+id/recycler_view_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:orientation="horizontal">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btn_save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/_10dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:text="@string/tv_luu"
+                    fancy:fb_defaultColor="@color/md_blue_a700"
+                    fancy:fb_radius="@dimen/_5dp" />
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btn_close"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/_10dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:text="@string/tv_dong"
+                    fancy:fb_defaultColor="@color/md_green_a700"
+                    fancy:fb_radius="@dimen/_5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,674 @@
+<resources>
+    <string name="app_name">VNPT E-Office</string>
+    <string name="str_login">E-Office system</string>
+    <string name="app_name_tap_doan">iOffice 4.0\nTập Đoàn</string>
+    <string name="home">Home page</string>
+    <string name="PROCESSING_REQUEST">Processing</string>
+    <string name="DOWNLOADING_REQUEST">Downloading...</string>
+    <string name="LOGOUT_REQUEST">Logging out...</string>
+    <string name="UPDATING_REQUEST">Updating data!</string>
+    <string name="LOGINING_REQUEST">Loggin in</string>
+    <string name="PLEASE_WAIT">Please wait a minute</string>
+    <string name="UPDATING_DATA">Updating data</string>
+    <string name="change_password_title">Change password</string>
+    <string name="default_home_title">Default settings</string>
+    <string name="profile_title">Personal information</string>
+    <string name="tenDangNhap">user name</string>
+    <string name="matKhau">password</string>
+    <string name="ghiNhoTaiKhoan">Remember account</string>
+    <string name="dangKy">Register</string>
+    <string name="USERNAME_REQUIRED">User name is missing</string>
+    <string name="PASSWORD_REQUIRED">Password is missing</string>
+    <string name="LOGIN_INVALID">Incorrect login information</string>
+    <string name="OLD_PASSWORD_REQUIRED">You have not entered old password</string>
+    <string name="NEW_PASSWORD_REQUIRED">You have not entered new password</string>
+    <string name="CONFIRM_PASSWORD_REQUIRED">You need to confirm new password</string>
+    <string name="USERNAME_INVALID_LENGTH">Username must not exceed 100 characters</string>
+    <string name="PASSWORD_INVALID_LENGTH">Password must be at least 8 characters long</string>
+    <string name="PASSWORD_INVALID_STRENGTH">Password must include number, lowercase letter, uppercase letter and special characters</string>
+    <string name="USERNAME_INVALID_STRENGTH">Username cannot contain special characters</string>
+    <string name="CONFIRM_PASSWORD_MISMACTH">Incorrect confirm password</string>
+    <string name="LOGIN_TITLE_ERROR">Login error</string>
+    <string name="CHANGE_PASSWORD_TITLE_ERROR">Change password error</string>
+    <string name="CHANGE_PASSWORD_ERROR">Password change information is incorrect</string>
+    <string name="DUPLICATE_PASSWORD_ERROR">The new password must not be the same as the old password</string>
+    <string name="CHANGE_PASSWORD_MESSAGE_SUCCESS">Change password successfully</string>
+    <string name="TITLE_SUCCESS">Succesfully</string>
+    <string name="TITLE_CONFIRM">Confirm</string>
+    <string name="NETWORK_TITLE_ERROR">Network error</string>
+    <string name="DOWNLOAD_TITLE_ERROR">Error downloading file</string>
+    <string name="TITLE_READED_ERROR">marking error</string>
+    <string name="LOGOUT_TITLE_ERROR">Log out error</string>
+    <string name="GET_INFO_TITLE_ERROR">collect information error</string>
+    <string name="CHANGE_DOC_TITLE_ERROR">Transfer document error</string>
+    <string name="RECOVER_DOC_TITLE_ERROR">Retrieve document error</string>
+    <string name="MARK_DOC_TITLE_ERROR">mark document error</string>
+    <string name="MARK_SIGN_TITLE_ERROR">sign document error</string>
+    <string name="COMMENT_DOC_TITLE_ERROR">send comment error</string>
+    <string name="TITLE_NOTIFICATION">Notification</string>
+    <string name="NOT_PERSON_PROCESS">You have not selected primary recipient</string>
+    <string name="NOT_PERSON">You have not selected unit/individual receiving document</string>
+    <string name="NOT_PERSON_SAVE">Chưa chọn đơn vị/cá nhân lưu hồ sơ!</string>
+    <string name="NOT_PERSON_GROUP">You have not selected unit/individual receiving document in group</string>
+    <string name="NOT_NOTE_SEND">You have not entered transfer note</string>
+    <string name="NOT_CONTENT_SEND">You have not entered content</string>
+    <string name="NOT_TYPE_CHANGE">You have not selected type of transfer</string>
+    <string name="NOT_SUPPORT_TYPE_CHANGE">Document is not supported for transfer</string>
+    <string name="MARK_READ_SUCCESS">Mark as read sucessfully</string>
+    <string name="NOT_PERSON_NOTIFY">You have not selected recipient receiving notification</string>
+    <string name="NOT_PERSON_DIRECT">You have not selected unit/individual receiving directly</string>
+    <string name="CHANGE_DOC_FAIL">Transfer document failed</string>
+    <string name="CHANGED_DOC">This document has been transfered previously </string>
+    <string name="CHANGE_DOC_SUCCESS">Transfer document succesfully</string>
+    <string name="READED_FAIL">Could not mark as read</string>
+    <string name="UNCHECK_READED">No notifications selected</string>
+    <string name="NO_INTERNET_ERROR">No internet connection/Please connect and try again</string>
+    <string name="DOWNLOAD_FILE_ERROR">Could not download file</string>
+    <string name="SELECT_DOCUMENT_TYPE_SAME_ERROR">Không thể thao tác văn bản văn bản</string>
+    <string name="SELECT_DOCUMENT_TYPE_SAME_CONTENT_ERROR">Văn bản đã check không cùng bước thao tác!</string>
+    <string name="DOWNLOAD_FILE_SUCCESS">Download file succesfully</string>
+    <string name="FUNCTION_NO_SUPPORT_INFO">This function is being developed</string>
+    <string name="SCHEDULE_NO_SUPPORT_INFO">Could not display meeting schedule</string>
+    <string name="REPORT_TYPE_REQUIRED">You have not selected report</string>
+    <string name="CLOSE_BUTTON">Close</string>
+    <string name="ACCEPT_BUTTON">Agree</string>
+    <string name="NO_DATA">No contacts found</string>
+    <string name="NO_REPLY">No response</string>
+    <string name="NO_NOTIFY">You have no notification</string>
+    <string name="NO_CONTACT">No contacts found</string>
+    <string name="WAITING_FOR_PROGRESSING_MENU">pending document waiting to be processed</string>
+    <string name="DOC_PROCESSED_MENU">Incoming documents waiting to be processed</string>
+    <string name="DOC_PROCESSED_DAXULY_MENU">Processed incoming documents</string>
+    <string name="DOC_EXPRIED_MENU">Due/overdue documents</string>
+    <string name="DOC_NOTIFICATION_MENU">Reference documents</string>
+    <string name="DOC_MARK_MENU">Marked documents</string>
+    <string name="HOME_MENU">Home page</string>
+    <string name="DOCUMENT_MENU">Document management</string>
+    <string name="VANBANDEN_MENU">Incoming documents</string>
+    <string name="VANBANDI_MENU">Outgoing documents</string>
+    <string name="VANBANDI_CANXULY_MENU">Outgoing documents waiting to be processed</string>
+    <string name="VANBANDI_DAPHATHANH_MENU">Published outgoing documents</string>
+    <string name="VANBANDI_DAXULY_MENU">Processed outgoing documents</string>
+    <string name="SETTING_MENU">Setting</string>
+    <string name="CONTACT_MENU">Contact list</string>
+    <string name="SCHEDULE_MANAGER_MENU">Quản lý lịch</string>
+    <string name="SCHEDULE_MENU">Unit calendar</string>
+    <string name="CREATE_SCHEDULE_WEEK_SUCCESS">Tạo lịch tuần thành công!</string>
+    <string name="INPUT_SCHEDULE_WEEK_ERORR">Bạn cần phải nhập nội dung công tác!</string>
+    <string name="INPUT_CHAIR_OR_JOIN_ERORR">Không được để trống thành phần chủ trì hoặc thành phần tham gia!</string>
+    <string name="TIME_START_ERORR">Thời gian bắt đầu phải diễn ra trước thời gian kết thúc!</string>
+    <string name="TIME_END_ERORR">Thời gian kết thúc phải diễn ra sau thời gian bắt đầu!</string>
+    <string name="SCHEDULE_DEPART_MENU">Lịch phòng ban</string>
+    <string name="SCHEDULE_WEEK">Xem lịch tuần</string>
+    <string name="SCHEDULE_REGISTER">Đăng ký lịch tuần</string>
+    <string name="HOME_SCHEDULE_MENU">Unit calendar</string>
+    <string name="NEWS_MENU">News</string>
+    <string name="REPORT_EXT_MENU">Report</string>
+    <string name="WORK_MENU">Task management</string>
+    <string name="CHIDAO_MENU">Admin info</string>
+    <string name="CHIDAO_GUI_MENU">Received admin info</string>
+    <string name="CHIDAO_NHAN_MENU">Sent admin info</string>
+    <string name="REPORT_MENU">Statistical reports</string>
+    <string name="DEFAULT_HOME_MENU">Default settings</string>
+    <string name="LOG_OUT_MENU">Log out</string>
+    <string name="CHANGE_PASSWORD_MENU">Change password</string>
+    <string name="REPORT_TEMPLATE">Report template</string>
+    <string name="NOTIFY_MENU">Notification</string>
+    <string name="DETAIL_SCHEDULE_TITLE">Meeting schedule details </string>
+    <string name="DETAIL_SCHEDULE_BUSSINESS_TITLE">Travel details</string>
+    <string name="PROFILE_MENU">Personal information</string>
+    <string name="CONTACT_DETAIL">Contact information</string>
+    <string name="DOCUMENT_DIAGRAM">Document flow</string>
+    <string name="DOCUMENT_HISTORY">Document processed history</string>
+    <string name="HINT_SEARCH_CONTACT"><font size="14"> Enter name (Individual, unit), phone number, email</font></string>
+    <string name="HINT_SEARCH"><font size="14">Search</font></string>
+    <string name="BTN_SEARCH">Search</string>
+    <string name="BTN_REFRESH">New search</string>
+    <string name="BTN_CANCEL">Cancel</string>
+    <string name="HINT_QUICK_SEARCH"><font size="14"> Quick search</font></string>
+    <string name="SEARCH_LABEL">Search </string>
+    <string name="STATUS_CONTACT_ACTIVE_LABEL">Allowed to use</string>
+    <string name="STATUS_CONTACT_DEACTIVE_LABEL">Not allowed to use</string>
+    <string name="IS_READ">Seen</string>
+    <string name="IS_NOT_READ">Not yet seen</string>
+    <string name="REMEMBER_LABEL">Remember account</string>
+    <string name="UPDATE_BTN_LABEL">Update</string>
+    <string name="LOGIN_BTN_LABEL">Log in</string>
+    <string name="OLD_PASSWORD_LABEL">Old Password</string>
+    <string name="NEW_PASSWORD_LABEL">New Password</string>
+    <string name="CONFIRM_PASSWORD_LABEL">Confirm new password</string>
+    <string name="DOCUMENT_RECOVERED_SUCCESS">Retrieve document succesfully</string>
+    <string name="DOCUMENT_RECOVERED_FAIL">Retrieve document unsuccesful</string>
+    <string name="DOCUMENT_RECOVERED_INVALID">Document has been seen, cannot retrieve</string>
+    <string name="MARKED_SUCCESS">Mark document succesfully</string>
+    <string name="NEW_NOTIFICATION">You have 1 new notification</string>
+    <string name="NOT_MARKED_SUCCESS">Document has been unmarked</string>
+    <string name="MARKED_FAIL">Failed to mark document</string>
+    <string name="NOT_MARKED_FAIL">Failed to unmark document</string>
+    <string name="DOCUMENT_MARKED_FAIL">Mark document unsuccessful</string>
+    <string name="DOCUMENT_SIGN_FAIL">Unable to sign this document</string>
+    <string name="NOT_FILE_SIGN">No file to sign</string>
+    <string name="FILE_ERROR_SIGN">Unable to sign this document</string>
+    <string name="DOCUMENT_SIGN_WAITING">Signing document/Confirmation will be sent in a few minutes</string>
+    <string name="NO_COMMENT_DOC_SEND">Unable to leave a comment for this outgoing document</string>
+    <string name="NOT_COMMENT">You have not yet entered comment for this document</string>
+    <string name="COMMENT_SUCCESS">Comment sent successfully</string>
+    <string name="COMMENT_ERROR">Unable to leave a comment for this document</string>
+    <string name="DETAIL_DOCUMENT_LABEL">Document details</string>
+    <string name="SEND_COMMENT_LABEL">Send a comment</string>
+    <string name="SEND_DOCUMENT_LABEL">Transfer document</string>
+    <string name="SEARCH_DOCUMENT_LABEL">Search document</string>
+    <string name="ADVANCE_SEARCH_DOCUMENT_LABEL">Advanced search</string>
+    <string name="UNIT_LOG">Unit: </string>
+    <string name="HUY_BTN_LABEL">Cancel</string>
+    <string name="NGAY_BH_TITLE_ERROR">Error: published date</string>
+    <string name="NGAY_BH_ERROR">The search period for published date is not valid</string>
+    <string name="NGAY_ST_ERROR">The search period for drafted document is not valid</string>
+    <string name="HAN_XL_ERROR">The search period for due date is not valid</string>
+    <string name="NGAY_ST_TITLE_ERROR">Error: drafted date</string>
+    <string name="HAN_XL_TITLE_ERROR">Error: due date</string>
+    <string name="RANGE_DATE_ERROR">Ngày bắt đầu phải nhỏ hơn thúc</string>
+    <string name="SEND_NOTE">Note ...</string>
+    <string name="SEND_CONTENT">Processing content</string>
+    <string name="SEND_CONTENT_HANXULY">Due date</string>
+    <string name="SEND_COMMENT">Insert comment here</string>
+    <string name="NO_COMMENT">No comment for this document</string>
+    <string name="DEFAULT_TYPE_DOC">Select document types</string>
+    <string name="DEFAULT_FIELD_DOC">Select document fields</string>
+    <string name="DEFAULT_PRIORITY_DOC">Select document urgency levels</string>
+    <string name="DEFAULT_TYPE_CHANGE_DOC">Select document transfer types</string>
+    <string name="RESULT_SEARCH">Search result</string>
+    <string name="DETAIL_WORK">Task details</string>
+    <string name="PROFILE_WORK">Task profiles</string>
+    <string name="LETTER">Invitation letter</string>
+    <string name="CONFIRM_NOT_MARK">Document has been marked/Do you want to unmark it?</string>
+    <string name="CONFIRM_LOGOUT">Log out account?</string>
+    <string name="SELECT_PERSON">Select recipient</string>
+    <string name="HOUR_LABEL">Hour</string>
+    <string name="FINISH_SUCCESS">End document succesfully</string>
+
+    <string name="DEFAULT_GROUP">---Select group of recipient---</string>
+    <string name="ALL_GROUP">All group</string>
+    <string name="NO_TITLE_NAME">Notification have no title</string>
+    <string name="NO_DATE">Date not updated</string>
+    <string name="NO_TIME">hour not updated</string>
+    <string name="NO_UPDATE_NAME">Name: N/A</string>
+    <string name="NO_UPDATE_POSITION">Position: N/A</string>
+    <string name="NO_UPDATE_PHONE">Phone number: N/A</string>
+    <string name="NO_UPDATE_EMAIL">Email: N/A</string>
+
+    <string name="NEW_HISTORY">not yet processed</string>
+    <string name="PROCESSING_HISTORY">processing</string>
+    <string name="PROCESSED_HISTORY">processed</string>
+
+    <string name="SELECT_JOB_POSSITION">---Select position---</string>
+    <string name="SELECT_UNIT">---Select unit---</string>
+
+    <string name="POSITION_ACCOUNT">Position</string>
+    <string name="GROUP_ACCOUNT">Group</string>
+    <string name="STATUS_ACCOUNT">Status</string>
+    <string name="UNIT_ACCOUNT">Unit</string>
+    <string name="ADDRESS_ACCOUNT">Address</string>
+    <string name="LEVEL_ACCOUNT">Education</string>
+    <string name="RELIGION_ACCOUNT">Religion</string>
+    <string name="NATION_ACCOUNT">Ethnic</string>
+    <string name="USERNAME_ACCOUNT">User name</string>
+    <string name="EMAIL_ACCOUNT">Email</string>
+    <string name="PHONE_ACCOUNT">Phone number</string>
+    <string name="BORN_ACCOUNT">Date of birth</string>
+    <string name="SEX_ACCOUNT">Gender</string>
+
+    <string name="SEARCH_LABEL_BTN">Search</string>
+    <string name="ADD_LABEL_BTN">Add new</string>
+    <string name="SAVE_LABEL_BTN">Save</string>
+    <string name="SEND_LABEL_BTN">Send notification</string>
+
+    <string-array name="navigation_drawer_items_left_menu">
+        <item>Home page</item>
+        <item>Incoming documents waiting to be processed</item>
+        <item>Processed incoming documents</item>
+        <item>Outgoing documents waiting to be processed</item>
+        <item>Published outgoing documents</item>
+        <item>Processed outgoing documents</item>
+        <item>Reference documents</item>
+        <item>Marked documents</item>
+        <item>Contact list</item>
+        <item>Unit calendar</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_waiting">
+        <item>Transfer</item>
+        <item>Mark</item>
+        <item>Send comments</item>
+        <item>Sign</item>
+        <item>Document flow</item>
+        <item>History</item>
+        <item>Unmark</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_expired">
+        <item>Transfer</item>
+        <item>Mark</item>
+        <item>Send comments</item>
+        <item>Sign</item>
+        <item>Document flow</item>
+        <item>History</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_processed_all">
+        <item>Retrieve</item>
+        <item>Mark</item>
+        <item>Document flow</item>
+        <item>History</item>
+        <item>Unmark</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_notification_all">
+        <item>Mark</item>
+        <item>Document flow</item>
+        <item>History</item>
+        <item>Unmark</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_mark_all">
+        <item>Mark</item>
+        <item>Document flow</item>
+        <item>History</item>
+        <item>Unmark</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_expired_all">
+        <item>Mark</item>
+        <item>Document flow</item>
+        <item>History</item>
+        <item>Unmark</item>
+    </string-array>
+
+    <string-array name="string_array_report">
+        <item>Select report</item>
+        <item>Unit statistical report</item>
+        <item>Monthly summary report</item>
+        <item>Yearly summary report</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_processed">
+        <item>Mark</item>
+    </string-array>
+
+    <string-array name="string_array_schedule_type">
+        <item>Travel schedule</item>
+        <item>Meeting schedule</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tv_xuly">Process</string>
+    <string name="tv_xuly_chinh">Main process</string>
+    <string name="tv_XLC">MP</string>
+    <string name="tv_dong_xuly">Co-process</string>
+    <string name="tv_PH">Co</string>
+    <string name="tv_phoihop">Coordinate</string>
+    <string name="tv_Xem">View</string>
+    <string name="tv_ho_ten_dv">Name/unit</string>
+    <string name="tv_DonVi">Unit</string>
+    <string name="tv_donggui">Co-send</string>
+    <string name="tv_gui">Send</string>
+    <string name="tv_tructiep">Unit/direct recipient</string>
+    <string name="tv_nguoi_nhan_thongbao">Recipient</string>
+    <string name="tv_ho_ten">Name</string>
+
+    <string name="tv_report_congviec">Task management</string>
+    <string name="tv_report_vanban">Document management</string>
+    <string name="tv_report_vanbanden">Incoming document</string>
+    <string name="tv_report_vanbandi">Outgoing document</string>
+    <string name="tv_report_vanban_cho_xuly">Total pending documents</string>
+    <string name="tv_report_vanban_qua_han">Total incoming/overdue documents</string>
+    <string name="tv_report_vanban_da_xuly">Total processed documents</string>
+    <string name="tv_report_vanban_ban_hanh">Total published documents</string>
+
+    <string name="tv_report_congviec_cho_xuly">Pending tasks</string>
+    <string name="tv_report_congviec_quahan">Incoming/overdue tasks</string>
+    <string name="tv_report_congviec_dangthuchien">Tasks in progress</string>
+    <string name="tv_report_congviec_dathuchien">Processed tasks</string>
+    <string name="tv_report_congviec_dunghan">Completed tasks</string>
+    <string name="tv_congviec_dagiao">Assigned tasks</string>
+    <string name="tv_congviec_duocgiao">Tasks to be assigned</string>
+    <string name="tv_congviec_taomoi">Create new task</string>
+
+    <!--String van ban cho xu ly-->
+    <string name="tv_email">Email: </string>
+    <string name="tv_trangthai">Status: </string>
+    <string name="tv_kh">KH: </string>
+    <string name="tv_cqbh">IU: </string>
+    <string name="tv_cqbh_full">Issued unit: </string>
+    <string name="tv_ngay_vb">Date: </string>
+    <string name="tv_do_khan">Urgency level: </string>
+    <string name="tv_file_dinh_kem">Attachment: </string>
+    <string name="tv_tep_dinh_kem">Attached file </string>
+    <string name="tv_file_lien_quan">Related file: </string>
+    <string name="tv_trichyeu">Abstract: </string>
+    <string name="tv_sokyhieu">Document number: </string>
+    <string name="tv_ngayden">Date of arrival: </string>
+    <string name="tv_hinhthucvb">Document type: </string>
+    <string name="tv_sovanban">Document number: </string>
+    <string name="tv_so_vanban">Document book: </string>
+    <string name="tv_linhvuc">Type: </string>
+    <string name="tv_loailich">View calendar: </string>
+    <string name="tv_tuan">Time: </string>
+    <string name="tv_hinhthuc">Document type: </string>
+    <string name="tv_hinhthuc_xl">Processing type: </string>
+    <string name="tv_noidung_xl">Content type: </string>
+    <string name="tv_thongtin_xl">Processing information: </string>
+    <string name="tv_ngayBH">Publised date: </string>
+    <string name="tv_ngayST">Drafted date: </string>
+    <string name="tv_from">From date</string>
+    <string name="tv_to">To date</string>
+    <string name="tv_tieude">Title</string>
+    <string name="tv_tieude_chidao">Title: </string>
+    <string name="tv_noidung_chidao">Content: </string>
+    <string name="tv_soden">Incoming number: </string>
+    <string name="tv_sodendi">Incoming/outgoing number </string>
+    <string name="tv_hanxuly">Due date: </string>
+    <string name="tv_sotrang">Pages: </string>
+    <string name="tv_hinhthucgui">Sending type: </string>
+    <string name="tv_vanbanliequan">Related documents</string>
+    <string name="tv_tonghopykienxuly">Summary of processing comments</string>
+    <string name="tv_vb_lienquan">Related documents</string>
+    <string name="tv_tonghop_y_kien">Summary of processing comments</string>
+    <string name="tv_y_kien_xl">Processing comments</string>
+    <string name="tv_y_toanvan">Full text</string>
+    <string name="tv_y_note_tim_chinh_xac">Accurate search (Only support search contents on file, not support special characters like ",""/""_")</string>
+    <string name="tv_more_search">Further search</string>
+    <string name="tv_user_xl">User xử lý: </string>
+    <string name="tv_btn_xem">View</string>
+    <string name="tv_xem_db">View only documents</string>
+
+    <string name="tv_chutri">Host: </string>
+    <string name="tv_thoigian">Time:</string>
+    <string name="tv_fromdate_label">Start:</string>
+    <string name="tv_todate_label">End:</string>
+    <string name="tv_diadiem_label">Location: </string>
+    <string name="tv_diadiem_bussiness_label">Travel location: </string>
+    <string name="tv_note_label">Note:</string>
+    <string name="tv_note_business_label">Travel note:</string>
+    <string name="tv_content_label">Content</string>
+    <string name="tv_content_bussiness_label">Travel content</string>
+    <string name="tv_thoigian_bussiness_label">Travel time</string>
+    <string name="tv_nguoitao_label">Register person:</string>
+    <string name="tv_thanhphan">Participants</string>
+
+    <string name="tv_thoigian_label">Time:</string>
+    <string name="tv_chuyentoi_xl">Transfer to: </string>
+    <string name="tv_chuyen_xl">Transfer for processing: </string>
+    <string name="tv_xin_y_kien">Leave a comment: </string>
+    <string name="tv_donggui_xl">Co send: </string>
+    <string name="tv_thaotac_xl">Process: </string>
+
+    <!--Thiet lap mac dinh-->
+    <string name="title_thietlap_mac_dinh">Default settings</string>
+    <string name="tv_thietlap_macdinh">Select default function</string>
+    <string name="tv_chucnang">Function/screen</string>
+    <string name="tv_chon">Select</string>
+
+    <string name="tv_date_send">Date sent: </string>
+    <string name="tv_date_create">Date created: </string>
+    <string name="tv_person_receive">Recipient: </string>
+    <string name="tv_date_receive">Date received: </string>
+    <string name="tv_person_send">Sender: </string>
+    <string name="tv_select">Select</string>
+    <string name="tv_file">File: </string>
+    <string name="tv_action">Process: </string>
+    <string name="tv_send">Sent:</string>
+    <string name="tv_draft">Draft</string>
+
+    <string name="tv_list_person">List of recipients </string>
+    <string name="tv_file_select"><u>Select folder</u></string>
+    <string name="SEND_CHIDAO">Send admin info</string>
+    <string name="CONGVIEC">Update task information</string>
+    <string name="DETAIL_CHIDAO">Admin info details</string>
+    <string name="INVALID_FILE_EXT">System only support file types DOC, DOCX, XLS, XLSX, PDF and image file type</string>
+    <string name="INVALID_FILE_SIZE">File exceeds 50MB</string>
+    <string name="DUPLICATE_FILE">Duplicate file. File will not be listed</string>
+    <string name="TIEUDE_REQUIERD">Title not yet entered</string>
+    <string name="SAVE_CHIDAO_SUCCESS">Save info succesfully</string>
+    <string name="SAVE_PERSON_CHIDAO_SUCCESS">Update recipient info succesfully</string>
+    <string name="SAVE_CHIDAO_ERROR">Update info failed</string>
+    <string name="SAVE_PERSON_CHIDAO_ERROR">Update recipient info failed</string>
+    <string name="GET_PERSON_CHIDAO_ERROR">Error retrieving recipient information</string>
+    <string name="GET_PERSON_GROUP_ERROR">Error retrieving group of recipient information</string>
+    <string name="GET_PERSON_IN_GROUP_ERROR">Error retrieving recipient list in group</string>
+    <string name="PERSON_REQUIERD">No recipients selected</string>
+    <string name="SEND_ALL_BUTTON">Send to all</string>
+    <string name="tv_status">Status</string>
+    <string name="tv_sent">Sent</string>
+    <string name="tv_not_send">Not yet sent</string>
+    <string name="tv_not_see">Not yet seen</string>
+    <string name="SEND_CHIDAO_SUCCESS">Admin info has been sent successfully</string>
+    <string name="SEND_CHIDAO_ERROR">Admin info sending failed</string>
+    <string name="REMOVE_PERSON_SUCCESS">This user has been removed from recipient list</string>
+    <string name="REMOVE_PERSON_ERROR">Delete user failed</string>
+    <string name="GET_FLOW_ERROR">Error getting exchange list</string>
+    <string name="GET_FILE_ERROR">Error getting attachment list</string>
+    <string name="GET_SCHEDULE_BOSS_ERROR">Error getting unit calendar</string>
+    <string name="CHIDAO_NOT_FOUND">Not found admin info</string>
+    <string name="SENT_ALL">Admin info has been sent</string>
+    <string name="FORWARD_CHIDAO">Forward</string>
+    <string name="REPLY_CHIDAO">Reply</string>
+    <string name="REPLY_ALL_CHIDAO">Reply all</string>
+    <string name="DELETE_CHIDAO_ERROR">Error delete admin info</string>
+    <string name="DELETE_CHIDAO_SUCCESS">Admin info has been deleted successfully</string>
+    <string name="LIST_RECEIVE">Recipient list</string>
+    <string name="tv_ngayxem">Date seen: </string>
+    <string name="NO_PERSON">Results not found</string>
+    <string name="EDIT_CHIDAO">Edit admin info</string>
+    <string name="LIST_FILE">Attachment list</string>
+    <string name="GET_DETAIL_ERROR">Error getting admin info</string>
+    <string name="NO_URL_ERROR">Not found link to file</string>
+    <string name="NO_SUPPORT_PDF_ERROR">Device does not support PDF file reader</string>
+    <string name="NO_SUPPORT_WORD_ERROR">Device does not support WORD file reader</string>
+    <string name="NO_SUPPORT_EXCEL_ERROR">Device does not support EXCEL file reader</string>
+    <string name="SAVE_DRAFT_BTN">Save draft</string>
+    <string name="BACK_BTN">Back</string>
+    <string name="SELECT_PERSON_BTN">Select recipient</string>
+    <string name="SELECT_ADD_PERSON_BTN">Add recipient</string>
+    <string name="SEND_BUTTON">Send</string>
+    <string name="NOT_SENT_ALL">No recipients selected/Please try again</string>
+    <string name="SENT_SENDED">Người nhận được chọn đã được gửi. Vui lòng chọn người nhận khác!</string>
+    <string name="NO_DATA_CHIDAO">Not found info</string>
+
+    <string name="tv_ketthuc_vanban">End document</string>
+    <string name="tv_tudong_giaoviec">Automatically assign</string>
+    <string name="str_ERROR_DIALOG">Error! Please try again later!</string>
+    <string name="str_ERROR_END_DOCUMENT_DIALOG">Lỗi kết thúc văn bản!</string>
+    <string name="str_ERROR_TICK_DOCUMENT_DIALOG">Lỗi đánh dấu văn bản!</string>
+    <string name="str_ERROR_CHECK_DOCUMENT_DIALOG">Lỗi kiểm tra thông tin văn bản!</string>
+    <string name="str_ERROR_CHANGE_ACCOUNT_DIALOG">Thay đổi account thất bại!</string>
+    <string name="notification_error_ssl_cert_invalid">Error authenticating SSL, do you want to continue to view file?</string>
+    <string name="tv_ngay_hop">%1$s</string>
+    <string name="DETAIL_LICHHOP">Detailed meeting schedule</string>
+    <string name="title_activity_detail_work_management">DetailWorkManagementActivity</string>
+    <string name="str_ten_cong_viec">Task name</string>
+    <string name="str_ten_cong_viec_binding">*Task name</string>
+    <string name="str_Unread">Chưa đọc</string>
+    <string name="str_All">Tất cả</string>
+    <string name="str_SELECT_ALL">Chọn tất cả</string>
+    <string name="str_FINISH_ALL">Kết thúc hàng loạt</string>
+    <string name="str_SEND_SAME">Chuyển đồng thời</string>
+    <string name="str_cong_viec_don_vi">Unit tasks</string>
+    <string name="str_noidung_cong_viec">*Tasks detail</string>
+    <string name="str_noidung_danh_gia">Rating</string>
+    <string name="str_cap_nhat_tinh_trang_cong_viec">Update task status</string>
+    <string name="string_ngay_het_han">*Expiry date</string>
+    <string name="str_file_attatch">Attached file</string>
+    <string name="string_chon_donvi_canhan">Select unit/individual to process</string>
+    <string name="str_danhsach_canhan_donvi">List of Individual/unit</string>
+    <string name="string_canhan_donvi_xuly">Unit/individual to process</string>
+    <string name="str_xin_gia_han">Request for extension</string>
+    <string name="str_xemthem_trinh_xu_ly">View more process handling</string>
+    <string name="str_capnhap_tinhtrang">Update status</string>
+    <string name="str_tao_cong_viec">Create sub-task</string>
+    <string name="str_thong_tin">Info</string>
+    <string name="str_ca_nhan">Personal</string>
+    <string name="str_cong_viec_con">Sub-task</string>
+    <string name="str_canhan_donvi_thuchien">Individual/unit to process</string>
+    <string name="txt_xlc_ph_xem">Main process\coordinate\view</string>
+    <string name="text_icon_delete">&#xf014;</string>
+    <string name="text_sucssess_create_work">Sub-task has been created successfully</string>
+    <string name="text_sucssess_add_person">Update processor successfully</string>
+    <string name="text_sucssess_update_status_work">Update task status successfully</string>
+    <string name="text_danhgia">You have not entered content</string>
+    <string name="text_tencongviec">You have not entered task name</string>
+    <string name="text_noiduncongviec">You have not entered task content</string>
+    <string name="str_noi_dung_y_kien">Comment</string>
+    <string name="str_ngay_het_han">Expiry date</string>
+    <string name="str_nhap_ma_otp">Enter OTP</string>
+    <string name="str_tai_file_toi_thu_muc">You have successfully downloaded file to Download/</string>
+    <string name="permission_rationale_title">Request for application permit!</string>
+    <string name="permission_rationale_message">This permit is required to use this function, please enable it!</string>
+    <string name="str_dialog_thongbao"> Notification </string>
+    <string name="str_dialog_kythanhcong"> Successfully signed!</string>
+    <string name="str_dialog_kychuathanhcong"> Failed to sign!</string>
+    <string name="str_dialog_resend_otp_faild"> Failed to send OTP!</string>
+    <string name="DOWNLOADING">Please wait ...</string>
+    <string name="str_button_tieptuchucnang"> Do you want to continue?</string>
+    <string name="str_button_tieptuc"> Continue</string>
+    <string name="str_button_quaylai"> Back</string>
+
+    <string name="str_err_400">The server is processing the request. Please try again.</string>
+
+    <string name="str_chuachon_xlc">Assigments need to be assigned to individual/unit that has main role</string>
+    <string name="text_sucssess_create_work_new">Create new task successfully</string>
+    <string name="text_title_create_work_new">Create new task</string>
+    <string name="check_create_work_new">You have to enter due date before select unit/individual</string>
+
+    <string name="str_tai_tep_tin">Download file</string>
+    <string name="check_ten_cong_viec">Task name must not leave blank!</string>
+    <string name="check_chon_don_vi">Giao việc cần phải chọn vào cá nhân/đơn vị !</string>
+    <string name="check_noidung_cong_viec">Task content must not leave blank!</string>
+    <string name="check_ngay_het_han_cong_viec">Due date must not leave blank!</string>
+
+    <string name="str_web">Please visit website to process this  notification!</string>
+    <string name="str_error">Error! Please try again later!</string>
+
+    <string name="str_language">Select language</string>
+    <string name="str_vn">Vietnamese</string>
+    <string name="str_en">English</string>
+    <string name="str_ls">Laos</string>
+
+    <string name="tv_capnhat">Update</string>
+    <string name="tv_dong">Close</string>
+    <string name="tv_tai_tep">Download file</string>
+    <string name="tv_tao_congviec">Create new task</string>
+    <string name="tv_xemthem">See more</string>
+    <string name="tv_chuyentiep">Forward</string>
+    <string name="tv_traloi">Reply</string>
+    <string name="tv_traloi_tatca">Reply all</string>
+    <string name="tv_guitoi">Send to:</string>
+    <string name="tv_danhdau">Mark</string>
+    <string name="tv_chuyen_xemdebiet">Transfer for viewing only</string>
+    <string name="tv_lichsu">History</string>
+    <string name="tv_chuyen_xuly">Transfer for processing</string>
+    <string name="tv_chuyen">Transfer</string>
+    <string name="tv_cho_ykien">Leave a comment</string>
+    <string name="tv_bo_danhdau">Unmark</string>
+    <string name="tv_ketthuc">End</string>
+    <string name="tv_thamgia">Participate:</string>
+    <string name="tv_diadiem">Location:</string>
+    <string name="tv_ngay_giaoviec">Assigned date: </string>
+    <string name="tv_ngay_hethan">Due Date: </string>
+    <string name="tv_do_uutien">Priority level: </string>
+    <string name="tv_trangthai_danhgia">Rating status:</string>
+    <string name="tv_noidung_danhgia">Rating content:</string>
+    <string name="tv_thongtin">Info:</string>
+    <string name="tv_gan_nguoidung">Tag user:</string>
+    <string name="tv_gui_thongbao">Send notification</string>
+    <string name="tv_vuilong_doi">Please wait a moment....</string>
+    <string name="tv_gui_sms">Send SMS</string>
+    <string name="tv_capnhat_thongtin">Update task info</string>
+    <string name="tv_ngay_het_han">Due Date:</string>
+    <string name="tv_luu">Save</string>
+    <string name="tv_mau">Template</string>
+    <string name="tv_xoa">Delete</string>
+    <string name="tv_khong_dulieu">No data</string>
+    <string name="tv_chon_theonhom">Select group</string>
+    <string name="tv_chon_theonhom_canhan">Select individual</string>
+    <string name="tv_chon_nguoinhan">Click to select recipient</string>
+    <string name="tv_thugon">Collapse</string>
+    <string name="tv_nhan_chon">Click to select internal units</string>
+    <string name="tv_nhan_chon_nguoinhan"> Click to select recipient</string>
+    <string name="tv_giu_3s">Hold 3s to select co-send</string>
+    <string name="tv_chon_lienthong">Click to select internal units</string>
+    <string name="tv_tai_lentep">Download file</string>
+    <string name="tv_dangnhap_web">Login</string>
+    <string name="tv_danhgia_congviec">Rate task</string>
+    <string name="tv_gui_ykien">Send a comment</string>
+    <string name="tv_cho_ykien_vanban">Leave a comment for this document</string>
+    <string name="tv_chon_donvi">Select unit</string>
+    <string name="tv_chon_canhan">Select individual</string>
+    <string name="tv_ten_donvi">Unit name</string>
+    <string name="tv_tinhtrang_xuly">Processing status:</string>
+    <string name="tv_ngay_batdau">Start date: </string>
+    <string name="tv_donvi_xuly">Processing unit/individual  </string>
+    <string name="tv_vaitro">Process role: </string>
+    <string name="tv_tinhtrang">Status: </string>
+    <string name="tv_ngay_ketthuc">End date: </string>
+    <string name="tv_sang">AM </string>
+    <string name="tv_chieu">PM</string>
+    <string name="tv_khongco_lich">No meeting schedule </string>
+    <string name="tv_ghichu">Note</string>
+    <string name="tv_dc">Add:</string>
+    <string name="tv_sang_lich">AM:</string>
+    <string name="tv_chieu_lich">PM:</string>
+    <string name="tv_chuagui">Not yet sent</string>
+    <string name="tv_dongy">Agree</string>
+    <string name="tv_guilai_otp">Resend OTP</string>
+    <string name="tv_huy">Cancel</string>
+    <string name="tv_lanhdao_giaoviec">Assigned task from manager:</string>
+    <string name="tv_mucdo_uutien">Priority level:</string>
+
+    <string name="str_themnguoi_xuly">Add processor</string>
+    <string name="str_chon_donvi_canhan">You have to select main unit/individual </string>
+    <string name="str_tao_congviec_con">Create sub-task</string>
+    <string name="str_nhap_lieu">You have to enter Task name, Content, Due date</string>
+    <string name="str_ban">You</string>
+    <string name="str_va">and</string>
+    <string name="str_nguoi_khac">others</string>
+    <string name="str_rutgon">shortcut</string>
+    <string name="str_xemthem">See more</string>
+    <string name="str_huy_danhgiau">unmark</string>
+    <string name="str_danhgiau">Mark</string>
+    <string name="str_thuong">Normal</string>
+    <string name="str_khong_chuyenduoc">Unable to transfer document</string>
+    <string name="str_da_hoanthanh">Complete</string>
+    <string name="str_cho_pheduyet">waiting for approval</string>
+    <string name="str_da_pheduyet">Approved</string>
+    <string name="str_chua_hoanthanh">Incomplete</string>
+    <string name="str_chitiet_congviec">Task details</string>
+    <string name="str_co_filetrung">Duplicate file</string>
+    <string name="str_khongthay_danhsach">Not found list of recipient</string>
+    <string name="str_tientrinh_xuly">Process </string>
+    <string name="str_loidongbo">Error syncing contacts</string>
+    <string name="str_cho_xuly">waiting to process</string>
+    <string name="str_dang_xuly">processing</string>
+    <string name="str_da_xuly">processed</string>
+    <string name="str_vuilong_capnhat">Please visit website to process this  notification!</string>
+    <string name="str_chon_theonhom">Select group of recipients</string>
+    <string name="str_chon_theonhom_donvi">Select group of receiving units</string>
+    <string name="str_ngay_hethan">Unit/individual due date:</string>
+    <string name="str_nho_hon">must be smaller than general</string>
+    <string name="str_capnhat_tinhtrang">Update task status</string>
+    <string name="str_ky_thanhcong">Successfully signed!</string>
+    <string name="str_ky_khong_thanhcong">Failed to sign!</string>
+    <string name="str_nhap_otp">Please enter OTP!</string>
+    <string name="str_gui_otp_thanhcong">OTP has been sent!</string>
+    <string name="str_gui_danhgia_thanhcong">Rating has been sent!</string>
+    <string name="str_tatca">All</string>
+    <string name="str_viec_canhan">Individual tasks</string>
+    <string name="str_viec_donvi">Unit tasks</string>
+    <string name="str_tieptuc">Continue</string>
+    <string name="str_huybo">Cancel</string>
+    <string name="str_sua">Edit</string>
+    <string name="str_xoa">Delete</string>
+    <string name="str_dagui">Sent</string>
+
+</resources>

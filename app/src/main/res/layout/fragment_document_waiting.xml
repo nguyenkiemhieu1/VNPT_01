@@ -1,0 +1,139 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDisplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white"
+    tools:context=".view.fragment.DocumentWaitingFragment"
+    tools:ignore="RtlCompat">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8dp"
+            android:background="@drawable/background_border"
+            android:hint="@string/HINT_SEARCH"
+            android:paddingStart="@dimen/_36dp"
+            android:textColor="@color/md_black"
+            android:textColorHint="@color/colorHint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_marginStart="@dimen/_8dp"
+            android:padding="@dimen/_2dp"
+            android:src="@drawable/ic_search"
+            app:layout_constraintBottom_toBottomOf="@+id/txtSearch"
+            app:layout_constraintStart_toStartOf="@+id/txtSearch"
+            app:layout_constraintTop_toTopOf="@+id/txtSearch" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txtNoData"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/NO_DATA"
+        android:textAlignment="center"
+        android:textColor="@color/md_black"
+        android:textSize="@dimen/_16sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/swipeRefreshLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <android.support.constraint.ConstraintLayout
+        android:visibility="visible"
+        android:id="@+id/layout_send_and_finish_same"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_send_same"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="sans-serif"
+            android:text="@string/str_SEND_SAME"
+            android:textAllCaps="false"
+            android:textColor="@color/md_white"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintBottom_toTopOf="@+id/checkbox_select_all"
+            app:layout_constraintEnd_toStartOf="@+id/btn_finish_all"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_finish_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="sans-serif"
+            android:text="@string/str_FINISH_ALL"
+            android:textAllCaps="false"
+            android:textColor="@color/md_white"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintBottom_toTopOf="@+id/checkbox_select_all"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_send_same"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkbox_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/str_SELECT_ALL"
+            android:textColor="@color/colorTextRed"
+            android:buttonTint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_send_and_finish_same">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@id/rcvDanhSach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</android.support.constraint.ConstraintLayout>

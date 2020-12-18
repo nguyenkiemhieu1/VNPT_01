@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/md_white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_border_top_green_bold">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txtSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_dc"
+                android:padding="@dimen/_3dp"
+                android:fontFamily="@font/arial"
+                android:textColor="@color/md_white"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Trần Xuân Trường"
+                android:textStyle="bold"
+                android:padding="@dimen/_3dp"
+                android:fontFamily="@font/arial"
+                android:textColor="@color/md_white"
+                android:gravity="center" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtDonVi"
+            android:paddingBottom="@dimen/_3dp"
+            android:fontFamily="@font/arial"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Giám đốc Trung tâm thông tin"
+            android:textColor="@color/md_white"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:fontFamily="@font/arial"
+            android:textColor="@color/md_grey_800"
+            android:text="@string/tv_sang_lich"/>
+        <TextView
+            android:id="@+id/txtSang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.5"
+            android:fontFamily="@font/arial"
+            android:textColor="@color/md_blue_800"
+            android:textStyle="bold"
+            tools:text="A. Tuấn và lãnh đạo bộ họp BCS Đảng. VP BCS Đảng chuẩn bị"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:fontFamily="@font/arial"
+            android:textColor="@color/md_grey_800"
+            android:text="@string/tv_chieu_lich"/>
+        <TextView
+            android:id="@+id/txtChieu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.5"
+            android:textColor="@color/md_blue_800"
+            android:fontFamily="@font/arial"
+            android:textStyle="bold"
+            tools:text="A. Tuấn và lãnh đạo bộ họp BCS Đảng. VP BCS Đảng chuẩn bị"/>
+    </LinearLayout>
+
+</LinearLayout>

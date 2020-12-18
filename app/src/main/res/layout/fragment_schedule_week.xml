@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_lichHop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_100">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--chon thu -->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_cyan_500"
+            android:orientation="horizontal"
+            android:padding="@dimen/_6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/thu2"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T2" />
+
+            <TextView
+                android:id="@+id/thu3"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T3" />
+
+            <TextView
+                android:id="@+id/thu4"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T4" />
+
+            <TextView
+                android:id="@+id/thu5"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T5" />
+
+            <TextView
+                android:id="@+id/thu6"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T6" />
+
+            <TextView
+                android:id="@+id/thu7"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T7" />
+
+            <TextView
+                android:id="@+id/chunhat"
+                style="@style/color_lich_donvi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CN" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_date_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_white"
+            android:drawableEnd="@drawable/icon_calendar"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingStart="@dimen/_32dp"
+            android:gravity="center"
+            android:padding="@dimen/_8dp"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:text="Ngày 03/04/2019" />
+
+        <Spinner
+            android:id="@+id/spinner_select"
+            style="@style/spinner_style_radius"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40dp"
+            android:layout_margin="@dimen/_4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date_now" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_schedule_week"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:background="@color/md_white"
+            android:visibility="visible"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/_32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_select" />
+
+        <TextView
+            android:id="@+id/tv_NoData"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:background="@color/md_white"
+            android:gravity="center"
+            android:text="@string/NO_DATA"
+            android:textColor="@color/md_black"
+            android:visibility="gone"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_select" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

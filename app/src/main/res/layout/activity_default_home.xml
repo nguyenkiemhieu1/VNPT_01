@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white"
+    android:orientation="vertical"
+    tools:context=".view.activity.DefaultHomeActivity">
+
+    <include
+        android:id="@+id/toolbar_default_home"
+        layout="@layout/toolbar_default_home" />
+
+    <LinearLayout
+        android:padding="@dimen/_12dp"
+        android:background="@color/md_grey_200"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtFunctionDisplayTitle"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_12dp"
+            android:textSize="@dimen/_16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_thietlap_macdinh"
+            android:textColor="@color/colorTextBlue" />
+        <LinearLayout
+            android:background="@drawable/background_border_top"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12dp">
+            <TextView
+                android:id="@+id/txtFunctionTitle"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sp"
+                android:text="@string/tv_chucnang"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:textColor="@color/md_white"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtChooseTitle"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/_16sp"
+                android:text="@string/tv_chon"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/md_white"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/rcvDanhSach"
+            android:background="@drawable/background_border_1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

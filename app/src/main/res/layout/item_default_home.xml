@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/lib/com.app.chasebank"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lo_img_checked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="@dimen/_12dp"
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:textColor="@color/md_black"
+            android:textSize="@dimen/_16sp"
+            tools:text="@string/tv_chucnang" />
+
+        <ImageView
+            android:id="@+id/img_isclick"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_circle_uncheck"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:layout_marginLeft="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_5dp"
+        android:background="@color/md_grey_200" />
+
+</LinearLayout>

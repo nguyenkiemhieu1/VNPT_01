@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNameContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_add"
+        tools:text=" UBND Test (100)"
+        android:textSize="@dimen/_15sp"
+        android:textColor="@color/md_black"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+    <LinearLayout
+        android:id="@+id/subContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:orientation="vertical"/>
+
+</LinearLayout>

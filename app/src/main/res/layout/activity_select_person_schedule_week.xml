@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_200"
+    tools:context=".view.activity.SelectPersonScheduleWeekActivity">
+
+    <include
+        android:id="@+id/toolbarSelectPerson"
+        layout="@layout/toolbar_select_person"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_5dp"
+        android:layout_marginStart="@dimen/_5dp"
+        android:background="@drawable/background_search_name_select_person"
+        android:fontFamily="@font/arial"
+        android:hint="@string/tv_ho_ten"
+        android:paddingLeft="@dimen/_8dp"
+        android:textColor="@color/md_black"
+        android:textColorHint="@color/md_grey_600"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSelectPerson" />
+
+    <TextView
+        android:id="@+id/tv_nodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tv_khong_dulieu"
+        android:textColor="@color/md_black"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edt_name" />
+
+    <LinearLayout
+        android:id="@+id/layout_person"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_8dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_name">
+
+        <TextView
+            android:id="@+id/btnExtend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_8dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:drawableLeft="@drawable/ic_down"
+            android:fontFamily="@font/arial"
+            android:text="@string/tv_nhan_chon_nguoinhan"
+            android:textColor="@color/md_grey_800"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/btnCollapse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_6dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/arial"
+                android:text="@string/tv_giu_3s"
+                android:textColor="@color/colorTextRed"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="4"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_up"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/tv_thugon"
+                    android:textColor="@color/md_grey_800"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--List danh sach user -->
+        <LinearLayout
+            android:id="@+id/layoutViewPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:background="#fff"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

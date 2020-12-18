@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SelectGroupPersonActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/md_grey_200">
+        <LinearLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/toolbarSelectPerson"
+                layout="@layout/toolbar_select_group_person" />
+        </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txtNoData"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="@color/md_black"
+            android:fontFamily="@font/arial"
+            android:textAlignment="center"
+            android:textSize="@dimen/_16sp"
+            android:text="@string/tv_khong_dulieu"
+            tools:ignore="RtlCompat" />
+        <LinearLayout
+            android:id="@+id/layoutDisplay"
+            android:background="@color/md_grey_200"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:background="@color/md_grey_200"
+                android:id="@+id/layout_process"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3dp"
+                android:layout_marginRight="@dimen/_3dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/background_border_top">
+                    <TextView
+                        android:id="@+id/tv_hoten"
+                        android:textStyle="bold"
+                        android:text="@string/tv_ho_ten"
+                        android:fontFamily="@font/arial"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:paddingLeft="@dimen/_5dp"
+                        android:layout_marginRight="@dimen/_20dp"
+                        android:textColor="@color/md_white"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_xuly_chinh"
+                        android:textStyle="bold"
+                        android:text="@string/tv_XLC"
+                        android:fontFamily="@font/arial"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="@dimen/_30dp"
+                        android:textColor="@color/md_white"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_dong_xuly"
+                        android:textStyle="bold"
+                        android:text="@string/tv_PH"
+                        android:fontFamily="@font/arial"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="@dimen/_30dp"
+                        android:textColor="@color/md_white"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_xem"
+                        android:textStyle="bold"
+                        android:text="@string/tv_Xem"
+                        android:fontFamily="@font/arial"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="@dimen/_20dp"
+                        android:textColor="@color/md_white"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rcvParent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

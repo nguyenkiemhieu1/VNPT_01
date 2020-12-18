@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/md_white"
+    tools:context=".view.activity.EditInforWorkActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/_32dp"
+                android:layout_height="@dimen/_32dp"
+                android:padding="@dimen/_8dp"
+                android:src="@drawable/back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="?attr/actionBarSize"
+                android:layout_marginStart="@dimen/_8dp"
+                android:singleLine="true"
+                android:fontFamily="@font/arial"
+                android:gravity="center"
+                android:text="@string/tv_capnhat_thongtin"
+                android:textColor="#fff"
+                android:textSize="@dimen/_20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnBack"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_12dp">
+            <EditText
+                android:id="@+id/edt_name_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:hint="@string/str_ten_cong_viec"
+                android:textColorHint="@color/md_grey_700"
+                android:textColor="@color/md_black"
+                android:padding="@dimen/_10dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_content_work"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:gravity="left"
+                android:textColorHint="@color/md_grey_700"
+                android:padding="@dimen/_10dp"
+                android:hint="@string/str_noidung_cong_viec"
+                android:textColor="@color/md_black" />
+
+            <LinearLayout
+                android:id="@+id/layoutFileDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/tv_file_dinh_kem"
+                    android:textColor="@color/md_black" />
+
+                <LinearLayout
+                    android:id="@+id/layout_file_attach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_10dp"></LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <Spinner
+                android:id="@+id/spin_work_level"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:padding="@dimen/_10dp" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_16dp"
+                android:background="@drawable/background_border_radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_from"
+                    android:hint="@string/tv_ngay_het_han"
+                    android:textColor="@color/md_black"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="@dimen/_5dp"
+                    android:textSize="@dimen/_14sp"
+                    android:gravity="center_vertical"
+                    android:textColorHint="@color/md_black"/>
+
+                <ImageView
+                    android:id="@+id/btn_date"
+                    android:layout_width="@dimen/_40dp"
+                    android:layout_height="@dimen/_40dp"
+                    android:src="@drawable/ic_date_chidao"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:orientation="horizontal">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btn_save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_20dp"
+                    android:paddingTop="@dimen/_10dp"
+                    android:paddingRight="@dimen/_20dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:text="@string/tv_luu"
+                    fancy:fb_defaultColor="@color/colorAccent"
+                    fancy:fb_radius="@dimen/_5dp" />
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btn_close"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_20dp"
+                    android:paddingTop="@dimen/_10dp"
+                    android:paddingRight="@dimen/_20dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:text="@string/tv_dong"
+                    fancy:fb_defaultColor="@color/md_green_400"
+                    fancy:fb_radius="@dimen/_5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

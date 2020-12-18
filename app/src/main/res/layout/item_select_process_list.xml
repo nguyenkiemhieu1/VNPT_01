@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5dp"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Demo"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:id="@+id/txtDonVi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_black"
+                    tools:text="Phòng PTPM 1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/checkXLChinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_50dp"
+            android:buttonTint="@color/md_black"
+            android:layout_gravity="center_vertical" />
+        <CheckBox
+            android:id="@+id/checkDongXL"
+            android:buttonTint="@color/md_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_20dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/md_grey_800"/>
+</LinearLayout>

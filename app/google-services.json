@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1025442065200",
+    "firebase_url": "https://vnptioffice.firebaseio.com",
+    "project_id": "vnptioffice",
+    "storage_bucket": "vnptioffice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025442065200:android:a51f4efae494131c",
+        "android_client_info": {
+          "package_name": "vn.com.vnpt.vinaphone.vnptsoftware.vnptoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025442065200-73n8i65rhjkm0fk7rm0rrihocc8jt05t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1aGxFQ4NiyVxeERnPpJV-S067Sqmntb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

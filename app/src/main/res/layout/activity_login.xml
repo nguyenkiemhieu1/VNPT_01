@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDisplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    android:fitsSystemWindows="true"
+    tools:context=".view.activity.LoginActivity"
+    tools:ignore="VectorDrawableCompat" >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logo_vnpt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtname1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:text="Quản lý văn bản và điều hành"
+        android:textAllCaps="true"
+        android:textColor="@color/md_white"
+        android:textSize="@dimen/_18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <TextView
+        android:id="@+id/txtname2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/md_white"
+        android:textSize="@dimen/_18sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtname1" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etUserLayout"
+        android:layout_width="@dimen/_265sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/md_white"
+        android:textColorHint="@color/md_white"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtname2">
+
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_56dp"
+            android:backgroundTint="@color/md_white"
+            android:drawableStart="@drawable/icon_username"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/md_white"
+            android:fontFamily="sans-serif"
+            android:hint="@string/tenDangNhap"
+            android:inputType="text"
+            android:paddingStart="@dimen/_8dp"
+            android:paddingTop="@dimen/_8dp"
+            android:textColorHint="@color/md_white"
+            android:textSize="@dimen/_16sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="317dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etPasswordLayout"
+        android:layout_width="@dimen/_265sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="horizontal"
+        android:textColorHint="@color/md_white"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserLayout">
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_56dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:backgroundTint="@color/md_white"
+            android:drawableStart="@drawable/icon_password"
+            android:drawablePadding="@dimen/_8dp"
+            android:drawableTint="@color/md_white"
+            android:fontFamily="sans-serif"
+            android:hint="@string/matKhau"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_8dp"
+            android:textColor="@color/md_white"
+            android:textColorHint="@color/md_white"
+            android:textSize="@dimen/_16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+        android:id="@+id/ckGhiNhoTaiKhoan"
+        android:layout_width="@dimen/_25dp"
+        android:layout_height="@dimen/_25dp"
+        app:checked="true"
+        android:layout_marginTop="@dimen/_16dp"
+        app:circle_color="@color/md_white"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordLayout"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordLayout"
+        app:stroke_color="@color/md_grey_800" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/md_white"
+        android:layout_marginBottom="@dimen/_32dp"
+        android:gravity="center"
+        android:text="@string/LOGIN_BTN_LABEL"
+        android:textAllCaps="false"
+        android:textColor="@color/md_blue_500"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_language"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordLayout"
+        app:layout_constraintStart_toStartOf="@+id/etPasswordLayout"
+        app:layout_constraintTop_toBottomOf="@+id/ckGhiNhoTaiKhoan"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/txtGhiNhoTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/REMEMBER_LABEL"
+        android:textColor="@color/md_white"
+        app:layout_constraintBottom_toBottomOf="@+id/ckGhiNhoTaiKhoan"
+        app:layout_constraintEnd_toStartOf="@+id/ckGhiNhoTaiKhoan"
+        app:layout_constraintTop_toTopOf="@+id/ckGhiNhoTaiKhoan" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/image_language"
+        android:layout_width="@dimen/_24dp"
+        android:layout_height="@dimen/_24dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/icon_language_vn"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_language"
+        app:layout_constraintEnd_toStartOf="@+id/tv_language"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
+        app:layout_constraintTop_toTopOf="@+id/tv_language" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_language"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:drawableEnd="@drawable/icon_drop_down"
+        android:gravity="center"
+        android:text="@string/str_vn"
+        android:textColor="@color/md_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login"
+        app:layout_constraintStart_toEndOf="@+id/image_language" />
+
+</android.support.constraint.ConstraintLayout>

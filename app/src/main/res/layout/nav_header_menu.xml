@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_140dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_10dp"
+    android:paddingLeft="@dimen/_10dp"
+    android:paddingRight="@dimen/_10dp"
+    android:id="@+id/ll_header_menu"
+    android:paddingTop="@dimen/_10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/avatarUser"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_8dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Lãnh đạo QH Lệ Thủy"
+                android:textColor="#fff"
+                android:textSize="@dimen/_13sp"
+                android:layout_marginEnd="@dimen/_8dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/txtDonVi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8dp"
+                android:textColor="#fff"
+                android:textSize="@dimen/_12sp"
+                tools:text="Phòng Phát triển phần mềm 1" />
+        </LinearLayout>
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/ivSwitchUser"
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="@dimen/_32dp"
+            android:padding="@dimen/_4dp"
+            android:layout_gravity="center"
+            android:rotation="-90"
+            android:src="@drawable/ic_keyboard_arrow_left_white_36dp"/>
+    </LinearLayout>
+</LinearLayout>

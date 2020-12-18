@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:baselineAligned="false"
+    tools:context=".view.fragment.ScheduleFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp">
+            <TextView
+                android:id="@+id/tv_schedule_label"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/md_black"
+                android:text="@string/tv_loailich" />
+            <Spinner
+                android:id="@+id/sSchedule"
+                style="@style/spinner_style_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/md_black"
+                android:layout_marginTop="@dimen/_5dp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_5dp">
+            <TextView
+                android:id="@+id/tv_tuan_label"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/md_black"
+                android:text="@string/tv_tuan" />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="@dimen/_35dp">
+
+                <ImageView
+                    android:id="@+id/backWeek"
+                    android:layout_gravity="center"
+                    android:background="@color/md_grey_200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_back"/>
+
+                <TextView
+                    android:textColor="@color/md_black"
+                    android:id="@+id/tv_tuan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    tools:text="25/09/2017 - 30/09/2017"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_border_2dp"/>
+
+                <ImageView
+                    android:id="@+id/nextWeek"
+                    android:background="@color/md_grey_200"
+                    android:layout_gravity="center|right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_next"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/layoutThongBao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+            <LinearLayout
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.alamkanak.weekview.WeekView
+                    android:id="@+id/weekView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:keepScreenOn="true"
+                    app:eventTextColor="#fff"
+                    app:textSize="10sp"
+                    app:hourHeight="45dp"
+                    app:headerColumnPadding="@dimen/_5dp"
+                    app:headerColumnTextColor="#8f000000"
+                    app:headerRowPadding="@dimen/_12dp"
+                    app:columnGap="@dimen/_1dp"
+                    app:noOfVisibleDays="5"
+                    app:headerRowBackgroundColor="#00aeef"
+                    app:dayBackgroundColor="#fff"
+                    app:todayBackgroundColor="#1848adff"
+                    app:headerColumnBackground="#8f000000"
+                    app:todayHeaderTextColor="#fff" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtGio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="@dimen/_5dp"
+                android:text="@string/HOUR_LABEL"
+                android:textSize="12sp"
+                android:textColor="@color/md_black" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.nhaarman.supertooltips.ToolTipRelativeLayout
+        android:id="@+id/activity_main_tooltipframelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/_10dp"
+        android:src="@drawable/ic_add_person_work" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_cyan_900">#006064</color>
+    <color name="md_grey_200">#eeeeee</color>
+    <color name="md_white">#ffffff</color>
+    <string name="app_name">treeview</string>
+</resources>

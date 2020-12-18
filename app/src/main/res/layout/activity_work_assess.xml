@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white"
+    android:orientation="vertical"
+    tools:context=".view.activity.WorkAssessActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/_32dp"
+                android:layout_height="@dimen/_32dp"
+                android:padding="@dimen/_8dp"
+                android:src="@drawable/back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+               android:layout_marginEnd="?attr/actionBarSize"
+                android:layout_marginStart="@dimen/_8dp"
+                android:singleLine="true"
+                android:fontFamily="@font/arial"
+                android:gravity="center"
+                android:text="@string/tv_danhgia_congviec"
+                android:textColor="#fff"
+                android:textSize="@dimen/_20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnBack"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_16dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spin_work_level"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@drawable/background_border_radius"
+            android:padding="@dimen/_10dp" />
+
+        <EditText
+            android:id="@+id/edt_content_work"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@drawable/background_border_radius"
+            android:gravity="left"
+            android:hint="@string/str_noidung_danh_gia"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/md_black"
+            android:textColorHint="@color/md_grey_700" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:orientation="horizontal">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/_20dp"
+                android:paddingTop="@dimen/_10dp"
+                android:paddingRight="@dimen/_20dp"
+                android:paddingBottom="@dimen/_10dp"
+                android:text="@string/tv_capnhat"
+                fancy:fb_defaultColor="@color/colorAccent"
+                fancy:fb_radius="@dimen/_5dp" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_close"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_16dp"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/_20dp"
+                android:paddingTop="@dimen/_10dp"
+                android:paddingRight="@dimen/_20dp"
+                android:paddingBottom="@dimen/_10dp"
+                android:text="@string/tv_dong"
+                fancy:fb_defaultColor="@color/md_green_400"
+                fancy:fb_radius="@dimen/_5dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,674 @@
+<resources>
+    <string name="app_name">VNPT E-Office</string>
+    <string name="str_login">Quản lý văn bản và điều hành</string>
+    <string name="app_name_tap_doan">iOffice 4.0\nTập Đoàn</string>
+    <string name="home">ໜ້າຫຼັກ</string>
+    <string name="PROCESSING_REQUEST">Processing</string>
+    <string name="DOWNLOADING_REQUEST">ດາວໂຫຼດ</string>
+    <string name="LOGOUT_REQUEST">ລົງຊື່ອອກ</string>
+    <string name="UPDATING_REQUEST">ອັບເດດຖານຂໍ້ມູນ</string>
+    <string name="LOGINING_REQUEST">ລົງຊື່ເຂົ້າໃຊ້</string>
+    <string name="PLEASE_WAIT">ກະລຸນາລໍຖ້າ 1 ນາທີ</string>
+    <string name="UPDATING_DATA">ອັບເດດຂໍ້ມູນ</string>
+    <string name="change_password_title">ປ່ຽນລະຫັດຜ່ານ</string>
+    <string name="default_home_title">ການກຳຳນົດຕັ້ງູຄ່າ</string>
+    <string name="profile_title">ຂໍ້ໍມນສ່ວນຕົວ</string>
+    <string name="tenDangNhap">ຊື່ຜູ້ໃຊ້</string>
+    <string name="matKhau">ລະຫັດຜູ້ໃຊ້</string>
+    <string name="ghiNhoTaiKhoan">ຈື່ບັນຊີຜູ້ໃຊ້</string>
+    <string name="dangKy">ລົງທະບຽນ</string>
+    <string name="USERNAME_REQUIRED">ບໍ່ພົບຊື່ຜູ້ໃຊ້</string>
+    <string name="PASSWORD_REQUIRED">ບໍ່ມີລະຫັດຜ່ານ</string>
+    <string name="LOGIN_INVALID">ຂໍ້ມູູນລົງຊື່ເຂົ້າໃຊ້ບໍ່ຖືກຕ້ອງ</string>
+    <string name="OLD_PASSWORD_REQUIRED">ທ່ານຍັງບໍ່ໄດ້ໃສ່ລະຫັດຜ່ານເກົ່າ</string>
+    <string name="NEW_PASSWORD_REQUIRED">ທ່ານຍັງບໍ່ໄດ້ໃສ່ລະຫັດຜ່ານໃໝ່</string>
+    <string name="CONFIRM_PASSWORD_REQUIRED">ທ່ານຍັງບໍ່ໄດ້ຢືນຢັນລະຫັດຜ່ານໃໝ່</string>
+    <string name="USERNAME_INVALID_LENGTH">ຊື້ຜູ້ໃຊ້ບໍ່ໃຫ້ເກີນ 100 ຕົວອັກສອນ</string>
+    <string name="PASSWORD_INVALID_LENGTH">ລະຫັດຜ່ານຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ</string>
+    <string name="PASSWORD_INVALID_STRENGTH">ລະຫັດຜ່ານຕ້ອງມີຕົວເລກ, ຕົວອັກສອນນ້ອຍ, ຕົວ ໜັງ ສືໃຫຍ່ແລະຕົວອັກສອນພິເສດ</string>
+    <string name="USERNAME_INVALID_STRENGTH">ຊື້ຜູູ້້ໃຊ້ບໍ່ໃຫ້ໃສ່ໂຕອັກສອນພິເສດ</string>
+    <string name="CONFIRM_PASSWORD_MISMACTH">ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ</string>
+    <string name="LOGIN_TITLE_ERROR">ລົງຊື່ເຂົ້າໃຊ້ບໍ່ຖືກຕ້ອງ</string>
+    <string name="CHANGE_PASSWORD_TITLE_ERROR">ປ່ຽນລະຫັດຜ່່ານບໍ່ຖືກຕ້ອງ</string>
+    <string name="CHANGE_PASSWORD_ERROR">ຂໍ້ມູນລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ</string>
+    <string name="DUPLICATE_PASSWORD_ERROR">ລະຫັດຜ່ານໃໝ່ບໍ່ໃຫ້ຊໍ້າກັບລະຫັດຜ່ານເກົ່າ</string>
+    <string name="CHANGE_PASSWORD_MESSAGE_SUCCESS">ປ່ຽນລະຫັດຜ່ານສຳເລັດ</string>
+    <string name="TITLE_SUCCESS">ສຳເລັັດ</string>
+    <string name="TITLE_CONFIRM">ຢືນຢັນ</string>
+    <string name="NETWORK_TITLE_ERROR">ເຄື່ືອຍຂ່າຍບໍ່ຖຶກຕ້ອງ</string>
+    <string name="DOWNLOAD_TITLE_ERROR">ດາວໂຫຼລດຟາຍບໍ່ຖຶກຕ້ອງ</string>
+    <string name="TITLE_READED_ERROR">ເຄື່ອງໝາຍບໍ່ຖືກຕ້ອງ</string>
+    <string name="LOGOUT_TITLE_ERROR">ລົງຊື່ອອກບໍ່ຖືຕ້ອງ</string>
+    <string name="GET_INFO_TITLE_ERROR">ເກັບກໍາຂໍ້ມູນບໍ່ຖືກຕ້ອງ</string>
+    <string name="CHANGE_DOC_TITLE_ERROR">ສົ່ງເອກະສານບໍ່ຖືກຕ້ອງ</string>
+    <string name="RECOVER_DOC_TITLE_ERROR">ກູ້້ເອກະສານຄືນບໍ່ຖືກຕ້ອງ</string>
+    <string name="MARK_DOC_TITLE_ERROR">ເຄື່ອງໝາຍເອກະສານບໍ່ຖືກຕ້ອງ</string>
+    <string name="MARK_SIGN_TITLE_ERROR">ເຊັນເອກະສານບໍ່ຖືກຕ້ອງ</string>
+    <string name="COMMENT_DOC_TITLE_ERROR">ສົ່ງເອກະສານບໍ່ຖືກຕ້ອງ</string>
+    <string name="TITLE_NOTIFICATION">ແຈ້ງການ</string>
+    <string name="NOT_PERSON_PROCESS">ທ່ານຍັງບໍ່ໄດ້ເລືອກຜູ້ຮັບ</string>
+    <string name="NOT_PERSON">ທ່ານຍັງບໍ່ໄດ້ເລືືອກໜ່ວຍງານ/ຜູ້ຮັບເອກະສານ</string>
+    <string name="NOT_PERSON_SAVE">Chưa chọn đơn vị/cá nhân lưu hồ sơ!</string>
+    <string name="NOT_PERSON_GROUP">ທ່ານຍັງບໍ່ໄດ້ເລືືອກໜ່ວຍງານ/ຜູ້ຮັບເອກະສານ ໃນກູ່ມ</string>
+    <string name="NOT_NOTE_SEND">ທ່ານຍັງບໍ່ໄດ້ບັນທຶກການໂອນຍ້າຍ</string>
+    <string name="NOT_CONTENT_SEND">ທ່ານຍັງບໍ່ໄດ້ໃສ່ເນື້ອຫາ</string>
+    <string name="NOT_TYPE_CHANGE">ທ່ານຍັງບໍ່ໄດ້ເລືອກວິທີການສົ່ງເອກະສານ</string>
+    <string name="NOT_SUPPORT_TYPE_CHANGE">ເອກະສານບໍ່ໜັບສະໜູນໃນການໂອນຍ້າຍ</string>
+    <string name="MARK_READ_SUCCESS">ເຄື່ອງໝາຍ ອ່ານສຳເລັດແລ້ວ</string>
+    <string name="NOT_PERSON_NOTIFY">ທ່ານຍັງບໍ່ໄດ້ເລືອກຜູ້ຮັບທີ່ໄດ້ຮັບການແຈ້ງເຕືອນ</string>
+    <string name="NOT_PERSON_DIRECT">ທ່ານຍັງບໍ່ໄດ້ເລືອກໜ່ວຍງານ/ບູກຄົນຮັບໂດຍກົງ</string>
+    <string name="CHANGE_DOC_FAIL">ໂອນເອກະສານຜິດພາດ</string>
+    <string name="CHANGED_DOC">ເອກະສານໄດ້ໂອນໄປແລ້ວ</string>
+    <string name="CHANGE_DOC_SUCCESS">ໂອນເອກະສານສຳເລັດ</string>
+    <string name="READED_FAIL">ເຄື່ອງໝາຍອ່ານບໍ່ໄດ້</string>
+    <string name="UNCHECK_READED">ບໍ່ໄດ້້ເລືອກການເເຈ້ງເຕືອນ</string>
+    <string name="NO_INTERNET_ERROR">ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ/ ກະລຸນາລອງອີກຄັ້ງ</string>
+    <string name="DOWNLOAD_FILE_ERROR">ໂຫຼດຟາຍບໍ່ໄດ້</string>
+    <string name="SELECT_DOCUMENT_TYPE_SAME_ERROR">Không thể thao tác văn bản văn bản</string>
+    <string name="SELECT_DOCUMENT_TYPE_SAME_CONTENT_ERROR">Văn bản đã check không cùng bước thao tác!</string>
+    <string name="DOWNLOAD_FILE_SUCCESS">ໂຫຼດຟາຍສຳເລັດ</string>
+    <string name="FUNCTION_NO_SUPPORT_INFO">ການພັດທະນາໜ້າວຽກ</string>
+    <string name="SCHEDULE_NO_SUPPORT_INFO">ຕາຕະລາງກອງປະຊຸມບໍ່ສາມາດສະແດງໄດ້</string>
+    <string name="REPORT_TYPE_REQUIRED">ທ່ານບໍ່ໄດ້ເລືອກລາຍງານເພື່ອເບິ່ງ</string>
+    <string name="CLOSE_BUTTON">ປິດ</string>
+    <string name="ACCEPT_BUTTON">ຕົກລົງ</string>
+    <string name="NO_DATA">ບໍ່ມີຂໍ້ມູນເອກະສານ</string>
+    <string name="NO_REPLY">ບໍ່ໄດ້ຕອບກັບ</string>
+    <string name="NO_NOTIFY">ບໍ່ມີການແຈ້ງເຕືອນ</string>
+    <string name="NO_CONTACT">ບໍ່ພົບການຕິດຕໍ່</string>
+    <string name="WAITING_FOR_PROGRESSING_MENU">ເອກະສານລໍຖ້າແກ້ໄຂ</string>
+    <string name="DOC_PROCESSED_MENU">ເອກະສານຂາເຂົ້າລໍຖ້າແກ້ໄຂ</string>
+    <string name="DOC_PROCESSED_DAXULY_MENU">ແກ້ໄຂເອກະສານຂາເຂົ້າ</string>
+    <string name="DOC_EXPRIED_MENU">ວັນທີກໍານົດເອກະສານ</string>
+    <string name="DOC_NOTIFICATION_MENU">ເບີິ່ງເອກະສານຢ່າງດຽວ</string>
+    <string name="DOC_MARK_MENU">ໝາຍເອກະສານ</string>
+    <string name="HOME_MENU">ໜ້າຫຼັັກ</string>
+    <string name="DOCUMENT_MENU">ການຄຸ້ມຄອງເອກະສານ</string>
+    <string name="VANBANDEN_MENU">ເອກະສານຂາເຂົ້າ</string>
+    <string name="VANBANDI_MENU">ເອກະສານຂາອອກ</string>
+    <string name="VANBANDI_CANXULY_MENU">ເອກະສານຂາອອກລໍໍ້ຖ້າແກ້ໄຂ</string>
+    <string name="VANBANDI_DAPHATHANH_MENU">ສົ່ງເອກສານອອກ</string>
+    <string name="VANBANDI_DAXULY_MENU">ແກ້ໄຂເອກະສານຂາອອກ</string>
+    <string name="SETTING_MENU">ຕັ້ງຄ່າ</string>
+    <string name="CONTACT_MENU">ລາຍຊື່ຕິດຕໍ່</string>
+    <string name="SCHEDULE_MANAGER_MENU">Quản lý lịch</string>
+    <string name="SCHEDULE_MENU">ປະຕິທິນ</string>
+    <string name="CREATE_SCHEDULE_WEEK_SUCCESS">Tạo lịch tuần thành công!</string>
+    <string name="INPUT_SCHEDULE_WEEK_ERORR">Bạn cần phải nhập nội dung công tác!</string>
+    <string name="INPUT_CHAIR_OR_JOIN_ERORR">Không được để trống thành phần chủ trì hoặc thành phần tham gia!</string>
+    <string name="TIME_START_ERORR">Thời gian bắt đầu phải diễn ra trước thời gian kết thúc!</string>
+    <string name="TIME_END_ERORR">Thời gian kết thúc phải diễn ra sau thời gian bắt đầu!</string>
+    <string name="SCHEDULE_DEPART_MENU">Lịch phòng ban</string>
+    <string name="SCHEDULE_WEEK">Xem lịch tuần</string>
+    <string name="SCHEDULE_REGISTER">Đăng ký lịch tuần</string>
+    <string name="HOME_SCHEDULE_MENU">ປະຕິທິນ</string>
+    <string name="NEWS_MENU">ຂ່າວ</string>
+    <string name="REPORT_EXT_MENU">ລາຍງານ</string>
+    <string name="WORK_MENU">ໜ້າວຽກ</string>
+    <string name="CHIDAO_MENU">ບໍລິຫານ</string>
+    <string name="CHIDAO_GUI_MENU">ໄດ້ຮັັບຂໍ້ມູນ</string>
+    <string name="CHIDAO_NHAN_MENU">ສົ່ງຂໍ້ມູູນ</string>
+    <string name="REPORT_MENU">ສະຖິຕິການລາຍງານ</string>
+    <string name="DEFAULT_HOME_MENU">ກຳນົດການຕັ້ງຄ່າ</string>
+    <string name="LOG_OUT_MENU">ອອກຈາກລະບົບ</string>
+    <string name="CHANGE_PASSWORD_MENU">ປ່ຽນລະຫັດຜ່ານ</string>
+    <string name="REPORT_TEMPLATE">ການລາຍງານ</string>
+    <string name="NOTIFY_MENU">ແຈ້ງການ</string>
+    <string name="DETAIL_SCHEDULE_TITLE">ລາຍລະອຽດຕາຕະລາງກອງປະຊຸມ</string>
+    <string name="DETAIL_SCHEDULE_BUSSINESS_TITLE">ລາຍລະອຽດການເດີນທາງ</string>
+    <string name="PROFILE_MENU">ຂໍ້ມູນສ່່ວນຕົວ</string>
+    <string name="CONTACT_DETAIL">ຂໍ້ມູນຕິດຕໍ່</string>
+    <string name="DOCUMENT_DIAGRAM">ການໄຫຼວຽນຂອງເອກະສານ</string>
+    <string name="DOCUMENT_HISTORY">ປະຫວັດການແກ້ໄຂເອກະສານ</string>
+    <string name="HINT_SEARCH_CONTACT"><font size="14"> ໃສ່ຊື່ (ສ່ວນບຸກຄົນ, ຫົວ ໜ່ວຍ), ເບີໂທລະສັບ, ອີເມວ</font></string>
+    <string name="HINT_SEARCH"><font size="14">ຄົ້ນຫາ</font></string>
+    <string name="BTN_SEARCH">ຄົ້ນຫາ</string>
+    <string name="BTN_REFRESH">ຄົ້ນຫາໃໝ່</string>
+    <string name="BTN_CANCEL">ຍົກເລີກ</string>
+    <string name="HINT_QUICK_SEARCH"><font size="14"> ຄົ້ົ້ນຫາດ່ວນ</font></string>
+    <string name="SEARCH_LABEL">ຄົ້ນຫາ</string>
+    <string name="STATUS_CONTACT_ACTIVE_LABEL">ອະນຸຍາດໃຫ້ໃຊ້</string>
+    <string name="STATUS_CONTACT_DEACTIVE_LABEL">ບໍ່ອະນຸຍາດໃຫ້ໃຊ້</string>
+    <string name="IS_READ">ເບິ່ງ</string>
+    <string name="IS_NOT_READ">ຍົັງບໍ່ທັນເບິ່ງ</string>
+    <string name="REMEMBER_LABEL">ຈື່ບັນຊີ</string>
+    <string name="UPDATE_BTN_LABEL">ອັບເດດ</string>
+    <string name="LOGIN_BTN_LABEL">ລົງຊື່ເຂົ້າໃຊ້</string>
+    <string name="OLD_PASSWORD_LABEL">ລົະຫັດຜ່ານເກົ່າ</string>
+    <string name="NEW_PASSWORD_LABEL">ລະຫັດຜ່ານໃໝ່</string>
+    <string name="CONFIRM_PASSWORD_LABEL">ຢືນຢັນລະຫັດຜ່ານໃໝ່</string>
+    <string name="DOCUMENT_RECOVERED_SUCCESS">ກູ້ຄືນເອກະສານສຳເລັດ</string>
+    <string name="DOCUMENT_RECOVERED_FAIL">ກູູ້ຄືນເອກະສານບໍ່ສຳເລັດ</string>
+    <string name="DOCUMENT_RECOVERED_INVALID">ເອກະສານເບິ່ງແລ້ວ, ບໍ່ສາມາດກູ້ຄືນໄດ້</string>
+    <string name="MARKED_SUCCESS">ເຄື່ອງໝາຍເອກະສານສຳເລັດ</string>
+    <string name="NEW_NOTIFICATION">ມີແຈ້ງເຕື່ອນ 1ສະບັບ</string>
+    <string name="NOT_MARKED_SUCCESS">ເອກະສານຍັງບໍ່ທັນໝາຍ</string>
+    <string name="MARKED_FAIL">ການໝາຍເອະສານບໍ່ສຳເັດ</string>
+    <string name="NOT_MARKED_FAIL">ບໍ່ສາມາດຍົກເລີກເອກະສານທີ່ບໍ່ທັນໝາຍ</string>
+    <string name="DOCUMENT_MARKED_FAIL">ໝາຍເອກະສານສຳລັດ</string>
+    <string name="DOCUMENT_SIGN_FAIL">ເຊັນເອກະສານບໍ່ໄດ້</string>
+    <string name="NOT_FILE_SIGN">ບໍ່ມີເອກະສານທີ່ຈະເຊັນ</string>
+    <string name="FILE_ERROR_SIGN">ບໍ່ສາມາເຊັນເອກະສານໄດ້</string>
+    <string name="DOCUMENT_SIGN_WAITING">ເອກະສານລົງລາຍເຊັນ / ການຢັ້ງຢືນຈະຖືກສົ່ງພາຍໃນສອງສາມນາທີ</string>
+    <string name="NO_COMMENT_DOC_SEND">ບໍ່ສາມາດລຶບຄໍາເຫັນໃນເອກະສານຂາອອກໄດ້</string>
+    <string name="NOT_COMMENT">ທ່ານຍັງບໍ່ທັນມີຄຳເຫັນໃນເອກະສານນີ້</string>
+    <string name="COMMENT_SUCCESS">ສົ່ງຄຳເຫັນສຳເລັດ</string>
+    <string name="COMMENT_ERROR">ບໍ່ສາມາດລຶຶບຄຳເຫັນໃນເອກະສານນີ້</string>
+    <string name="DETAIL_DOCUMENT_LABEL">ລາຍລະອຽດເອກະສານ</string>
+    <string name="SEND_COMMENT_LABEL">ສົ່ົ່ງຄຳເຫັນ</string>
+    <string name="SEND_DOCUMENT_LABEL">ສົ່ງຄຳເຫັັນ</string>
+    <string name="SEARCH_DOCUMENT_LABEL">ຄົ້ນຫາຄຳເຫັນ</string>
+    <string name="ADVANCE_SEARCH_DOCUMENT_LABEL">ຄົ້ນຫາລະອຽດ</string>
+    <string name="UNIT_LOG">ໜ່ວຍງານ: </string>
+    <string name="HUY_BTN_LABEL">ຍົກເລີີກ</string>
+    <string name="NGAY_BH_TITLE_ERROR">ຜິດພາດ: ວັນທີເຜີຍແຜ່ເອກະສານອອກ</string>
+    <string name="NGAY_BH_ERROR">ໄລຍະການຊອກຫາ ສຳ ລັບ ວັນທີເຜີຍແຜ່ເອກະສານອອກແມ່ນບໍ່ຖືກຕ້ອງ</string>
+    <string name="NGAY_ST_ERROR">ໄລຍະການຊອກຫາ ສຳ ລັບ ຮ່າງເອກະສານແມ່ນບໍ່ຖືກຕ້ອງ</string>
+    <string name="HAN_XL_ERROR">ໄລຍະການຊອກຫາ ສຳ ລັບ ວັນທີກໍານົດເອກະສານແມ່ນບໍ່ຖືກຕ້ອງນ</string>
+    <string name="NGAY_ST_TITLE_ERROR">ຮ່າງວັນທີ: ບໍ່ຖຶກຕ້ອງ</string>
+    <string name="HAN_XL_TITLE_ERROR">ວັນ​ຄົບ​ກໍາ​ນົດ: ບໍ່ຖືກຕ້ອງ</string>
+    <string name="RANGE_DATE_ERROR">Ngày bắt đầu phải nhỏ hơn thúc</string>
+    <string name="SEND_NOTE">ບັນທຶກ</string>
+    <string name="SEND_CONTENT">ແກ້ໄຂເນື້ອຫາ</string>
+    <string name="SEND_CONTENT_HANXULY">ວັນຄົບກຳນົດ</string>
+    <string name="SEND_COMMENT">ຊອກຫາຄຳເຫັນໄດ້ທີ່ນີ້</string>
+    <string name="NO_COMMENT">ບໍ່ມີຄຳເຫັນໃນເອກະສານນີ້</string>
+    <string name="DEFAULT_TYPE_DOC">ເລືອກປະເພດເອກະສານ</string>
+    <string name="DEFAULT_FIELD_DOC">ເລືືອກບ່ອນເກັບເອກະສານ</string>
+    <string name="DEFAULT_PRIORITY_DOC">ເລືອກຄວາມເລັ່ງດ່ວນຂອງເອກະສານ</string>
+    <string name="DEFAULT_TYPE_CHANGE_DOC">ເລືອກປະເພດເອກະສານໃນການໂອນ</string>
+    <string name="RESULT_SEARCH">ຜົນການຄົ້ນຫາ</string>
+    <string name="DETAIL_WORK">ລາຍລະອຽດຂອງວຽກ</string>
+    <string name="PROFILE_WORK">ໜ້າວຽກ</string>
+    <string name="LETTER">ໜ້ັງສືເຊີນ</string>
+    <string name="CONFIRM_NOT_MARK">ເອກະສານໝາຍແລ້ວ/ທ່ານຕ້ອງການຍົກເລີກບໍ?</string>
+    <string name="CONFIRM_LOGOUT">ອອກຈາກບັນຊີບໍ?</string>
+    <string name="SELECT_PERSON">ເລືອກຜູ້ຮັບ</string>
+    <string name="HOUR_LABEL">ຊົວໂມງ</string>
+    <string name="FINISH_SUCCESS">ສຳເລັດເອກະສານສະບັບສູດທ້າຍ</string>
+
+    <string name="DEFAULT_GROUP">---ເລືອກກູ່ມຜູ້ຮັບ---</string>
+    <string name="ALL_GROUP">ທັງໝົດ</string>
+    <string name="NO_TITLE_NAME">ແຕ້ງການບໍ່ມີຫົວຂໍ້</string>
+    <string name="NO_DATE">ບໍ່ໄດ້ອັບເດດວັນທີ</string>
+    <string name="NO_TIME">ຊົບໍ່ໄ້ອັບເດດຊົວໂມງ</string>
+    <string name="NO_UPDATE_NAME">ບໍ່ໍມີ</string>
+    <string name="NO_UPDATE_POSITION">ບໍ່ມີ</string>
+    <string name="NO_UPDATE_PHONE">ບໍ່ມີີ</string>
+    <string name="NO_UPDATE_EMAIL">ບໍ່ມີ</string>
+
+    <string name="NEW_HISTORY">ຍັງບໍ່ທັນແກ້ໄຂ</string>
+    <string name="PROCESSING_HISTORY">ກຳລັງແກ້ໄຂ</string>
+    <string name="PROCESSED_HISTORY">ແກ້ໄຂແລ້ວ</string>
+
+    <string name="SELECT_JOB_POSSITION">---ເລືອກຕໍາແໜ່ງ---</string>
+    <string name="SELECT_UNIT">---ເລືືອກໜ່ວຍງານ---</string>
+
+    <string name="POSITION_ACCOUNT">ຕຳແໜ່ງ</string>
+    <string name="GROUP_ACCOUNT">ກຸ່ມ</string>
+    <string name="STATUS_ACCOUNT">ສະຖານະພາບ</string>
+    <string name="UNIT_ACCOUNT">ໜ່ວຍງານ</string>
+    <string name="ADDRESS_ACCOUNT">ທີ່ຢູ່</string>
+    <string name="LEVEL_ACCOUNT">ກຸ່ານສຶກສາ</string>
+    <string name="RELIGION_ACCOUNT">ສາດສະໜາ</string>
+    <string name="NATION_ACCOUNT">ຊົນເຜົ່າ</string>
+    <string name="USERNAME_ACCOUNT">ຊົື່ຜູ້ໃຊ້</string>
+    <string name="EMAIL_ACCOUNT">ອິເມວ</string>
+    <string name="PHONE_ACCOUNT">ເລກໂທລະສັບ</string>
+    <string name="BORN_ACCOUNT">ວັນ/ເດືອນ/ປີ ເກີດ</string>
+    <string name="SEX_ACCOUNT">ເພດ</string>
+
+    <string name="SEARCH_LABEL_BTN">ຄົ້ນຫາ</string>
+    <string name="ADD_LABEL_BTN">ເພີ່ມໃໝ່</string>
+    <string name="SAVE_LABEL_BTN">ບັນທຶກ</string>
+    <string name="SEND_LABEL_BTN">ສົ່ງແຈ້ງການ</string>
+
+    <string-array name="navigation_drawer_items_left_menu">
+        <item>ໜ້າຫຼັກ</item>
+        <item>ເອກະສານຂາເຂົ້າກຳລັງລໍຖ້າແກ້ໄຂ</item>
+        <item>ແກ້ໄຂເອກະສານຂາເຂົ້າ</item>
+        <item>ເອກະສານຂາອອກກຳລັງແກ້ໄຂ</item>
+        <item>ເຜີຍແຜ່ເອກະສານຂາອອກ</item>
+        <item>ແກ້ໄຂເອກະສານອາອອກແລ້ວ</item>
+        <item>Vເບິ່ງເອກະສານ</item>
+        <item>ເອກະສານໝາຍໄວ້</item>
+        <item>ລາຍຊື່ຕິດຕໍ່</item>
+        <item>ປະຕິທິນ</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_waiting">
+        <item>ໂອນ</item>
+        <item>ໝາຍໄວ້</item>
+        <item>ສົ່ງຄຳເຫັນ</item>
+        <item>ເຊັນ</item>
+        <item>ການໄຫຼວຽນຂອງເອກະສານ</item>
+        <item>ປະຫວັດ</item>
+        <item>ບໍ່ໄດ້ໝາຍໄວ້</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_expired">
+        <item>ໂອນ</item>
+        <item>ໝາຍໄວ້</item>
+        <item>ສົ່ງຄຳເຫັນ</item>
+        <item>ເຊັນ</item>
+        <item>ການໄຫຼວຽນຂອງເອກະສານ</item>
+        <item>ປະຫວັດ</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_processed_all">
+        <item>ກູ້ຄືນ</item>
+        <item>ໝາຍໄວ້</item>
+        <item>ການໄຫຼວຽນຂອງເອກະສານ</item>
+        <item>ປະຫວັດ</item>
+        <item>ບໍ່ໄດ້ໝາຍໄວ້</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_notification_all">
+        <item>ໝາຍໄວ້</item>
+        <item>ການໄຫຼວຽນຂອງເອກະສານ</item>
+        <item>ປະຫວັດ</item>
+        <item>ບໍ່ໄດ້ໝາຍໄວ້</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_mark_all">
+        <item>ໝາຍໄວ້</item>
+        <item>ການໄຫຼວຽນຂອງເອກະສານ</item>
+        <item>ປະຫວັດ</item>
+        <item>ບໍ່ໄດ້ໝາຍໄວ້</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_expired_all">
+        <item>ໝາຍໄວ້</item>
+        <item>ການໄຫຼວຽນຂອງເອກະສານ</item>
+        <item>ປະຫວັດ</item>
+        <item>ບໍ່ໄດ້ໝາຍໄວ້</item>
+    </string-array>
+
+    <string-array name="string_array_report">
+        <item>ເລືອກລາຍງານ</item>
+        <item>ສະຖິຕິການລາຍງານ</item>
+        <item>ບົດສະຫຼຸບເດືອນ</item>
+        <item>ບົົສະຫຼູບປີ</item>
+    </string-array>
+
+    <string-array name="string_array_more_doc_processed">
+        <item>ໝາຍໄວ້</item>
+    </string-array>
+
+    <string-array name="string_array_schedule_type">
+        <item>ຕາຕະລາງເດີນທາງ</item>
+        <item>ຕາຕະລາງກອງປະຊຸມ</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tv_xuly">ການແກ້ໄຂ</string>
+    <string name="tv_xuly_chinh">ການແກ້້ໄຂຫຼັກ</string>
+    <string name="tv_XLC">ຕອນແລງ</string>
+    <string name="tv_dong_xuly">ການແກ້ໄຂຮ່ວມກັນ</string>
+    <string name="tv_PH">ຮ່ວມ</string>
+    <string name="tv_phoihop">ປະສານງານ</string>
+    <string name="tv_Xem">ເບິ່ງ</string>
+    <string name="tv_ho_ten_dv">ຊື່/ໜ່ວຍງ່ານ</string>
+    <string name="tv_DonVi">ໜ່ວຍງານ</string>
+    <string name="tv_donggui">ສົ່ງພ້ອມກັນ</string>
+    <string name="tv_gui">ສົ່ົ່ງ</string>
+    <string name="tv_tructiep">ຜູ້ຮັບໂດຍກົງ/ໜ່ວຍງານ</string>
+    <string name="tv_nguoi_nhan_thongbao">ຜູູ້້ຮັບ</string>
+    <string name="tv_ho_ten">ຊື່ື່</string>
+
+    <string name="tv_report_congviec">ການມອບວຽກ</string>
+    <string name="tv_report_vanban">ການຄຸ້ມຄອງເອກະສານ</string>
+    <string name="tv_report_vanbanden">ເອກະສານຂາເຂົ້າ</string>
+    <string name="tv_report_vanbandi">ເອກະສານຂາອອກ</string>
+    <string name="tv_report_vanban_cho_xuly">ລວມເອກະສານລໍຖ້າ</string>
+    <string name="tv_report_vanban_qua_han">ລວມເອກະສານຂາເຂົ້າ/ໝົດກຳນົດ</string>
+    <string name="tv_report_vanban_da_xuly">ລວມເອກະສານແກ້ໄຂແລ້ວ</string>
+    <string name="tv_report_vanban_ban_hanh">ລວມເອກສະທີ່ເຜີຍແຜ່ແລ້ວ</string>
+
+    <string name="tv_report_congviec_cho_xuly">ວຽກລໍຖ້າ</string>
+    <string name="tv_report_congviec_quahan">ວຽກຂາເຂົ້າ/ໝົດກຳນົດ</string>
+    <string name="tv_report_congviec_dangthuchien">ແກ້ໄຂວຽກ</string>
+    <string name="tv_report_congviec_dathuchien">ແກ້ໄຂແລ້ວ</string>
+    <string name="tv_report_congviec_dunghan">ວຽກສຳເລັດ</string>
+    <string name="tv_congviec_dagiao">ມອບໝາຍວຽກ</string>
+    <string name="tv_congviec_duocgiao">ວຽກທີ່ຈະມອບໝາຍ</string>
+    <string name="tv_congviec_taomoi">ສ້າງໜ້າວຽກໃໝ່</string>
+
+    <!--String van ban cho xu ly-->
+    <string name="tv_email">ອິເມວ: </string>
+    <string name="tv_trangthai">ສະຖານະພາບ: </string>
+    <string name="tv_kh">KH: </string>
+    <string name="tv_cqbh">IU: </string>
+    <string name="tv_cqbh_full">ໜ່ວຍງານອອກໃຫ້: </string>
+    <string name="tv_ngay_vb">ວັນທີ: </string>
+    <string name="tv_do_khan">ລຳດັບຄວາມເລັ່ງດ່ວນ: </string>
+    <string name="tv_file_dinh_kem">ຄັດຕິດ: </string>
+    <string name="tv_tep_dinh_kem">ເອກະສານຄັດຕິ: </string>
+    <string name="tv_file_lien_quan">ເອກະສານກ່ຽວຂ້ອງ: </string>
+    <string name="tv_trichyeu">ເອກະສານກ່ຽວຂ້ອງ: </string>
+    <string name="tv_sokyhieu">ເລກທີເອກະສານ: </string>
+    <string name="tv_ngayden">ວັັນທີມາຮອດ: </string>
+    <string name="tv_hinhthucvb">ປະເພດເອກະສານ: </string>
+    <string name="tv_sovanban">ເອກະສານເລກທີ: </string>
+    <string name="tv_so_vanban">ປື້ເອກະສານ: </string>
+    <string name="tv_linhvuc">ປະເພດ: </string>
+    <string name="tv_loailich">ເບິ່ງປະຕິທິນ: </string>
+    <string name="tv_tuan">ເວລາ: </string>
+    <string name="tv_hinhthuc">ປະເພດເອກະສານ: </string>
+    <string name="tv_hinhthuc_xl">ປະເພດກຳລັງແກ້ໄຂ: </string>
+    <string name="tv_noidung_xl">ປະເພດເນື້ອຫາ: </string>
+    <string name="tv_thongtin_xl">ແກ້ໄຂຂໍ້ມູນ: </string>
+    <string name="tv_ngayBH">ວັນທີີເຜີຍແຜ່: </string>
+    <string name="tv_ngayST">ວັນທີຮ່າງ: </string>
+    <string name="tv_from">ແຕ່ວັນທີ</string>
+    <string name="tv_to">ຫາວັນທີ</string>
+    <string name="tv_tieude">ຫົວຂໍ້</string>
+    <string name="tv_tieude_chidao">ຫົວຂໍ້: </string>
+    <string name="tv_noidung_chidao">ເນື້ອຫາ: </string>
+    <string name="tv_soden">ເລກທີຂາເຂົ້າ: </string>
+    <string name="tv_sodendi">ເລກທີີຂາເຂົ້າ/ອອກ: </string>
+    <string name="tv_hanxuly">ວັນທີ: </string>
+    <string name="tv_sotrang">ໜ້າ: </string>
+    <string name="tv_hinhthucgui">ປະເພດສົ່ງ: </string>
+    <string name="tv_vanbanliequan">ເອກະສານກ່ຽວຂ້ອງ</string>
+    <string name="tv_tonghopykienxuly">ສະຫຼຸບການແກ້ໄຂຄຳເຫັນ</string>
+    <string name="tv_vb_lienquan">ເອກະສານກ່່ຽວຂ້ອງ</string>
+    <string name="tv_tonghop_y_kien">ສະຫຼຸບການແກ້ໄຂຄຳເຫັນ</string>
+    <string name="tv_y_kien_xl">ແກ້ໄຂຄຳເຫັນ</string>
+    <string name="tv_y_toanvan">ເນື້ື້ອຫາເຕັມ</string>
+    <string name="tv_y_note_tim_chinh_xac">ການຄົ້ນຫາທີ່ຖືກຕ້ອງ (ມີແຕ່ສະ ຄົ້ນຫາເນື້ອຫາໃນເອກະສານ, ບໍ່ຮອງຮັບຕົວລະຄອນພິເສດເຊັ່ນ ",""/""_")</string>
+    <string name="tv_more_search">ຊອກຫາຕື່ມ</string>
+    <string name="tv_user_xl">User xử lý: </string>
+    <string name="tv_btn_xem">ເບິ່ງ</string>
+    <string name="tv_xem_db">ເບິ່ິ່ງແຕ່ເອກະສານ</string>
+
+    <string name="tv_chutri">ເຈົ້າພາບ: </string>
+    <string name="tv_thoigian">ເວລາ :</string>
+    <string name="tv_fromdate_label">ເລີ່ມ</string>
+    <string name="tv_todate_label">ສິ້ນສຸດ</string>
+    <string name="tv_diadiem_label">ສະຖານທີ່: </string>
+    <string name="tv_diadiem_bussiness_label">ສະຖານທີ່ເດີນທາງ: </string>
+    <string name="tv_note_label">ບັນທຶກ:</string>
+    <string name="tv_note_business_label">ບັັນທຶກການເດີນທາງ</string>
+    <string name="tv_content_label">ເນື້ອຫາ</string>
+    <string name="tv_content_bussiness_label">ເນື້ື້ອໃນການເດີນທາງ</string>
+    <string name="tv_thoigian_bussiness_label">ເວລາເດີນທາງ</string>
+    <string name="tv_nguoitao_label">ລົງທະບຽນບຸກຄົນ</string>
+    <string name="tv_thanhphan">ຜູ້ເຂົ້າຮ່ວມ</string>
+
+    <string name="tv_thoigian_label">ເວລາ:</string>
+    <string name="tv_chuyentoi_xl">ສົ່ງຫາ: </string>
+    <string name="tv_chuyen_xl">ສົ່ົ່ງຫາເພື່ອແກ້ໄຂ</string>
+    <string name="tv_xin_y_kien">ຝາກຄໍາເຫັນໄວ້ </string>
+    <string name="tv_donggui_xl">ສົ່ງພ້ອມກັນ</string>
+    <string name="tv_thaotac_xl">ແກ້ໄຂ: </string>
+
+    <!--Thiet lap mac dinh-->
+    <string name="title_thietlap_mac_dinh">ກຳນົດການຕັ້ງຄ່າ</string>
+    <string name="tv_thietlap_macdinh">ເລືອກການກຳນົດຕັ້ງຄ່າ</string>
+    <string name="tv_chucnang">ໜ້າຈໍ</string>
+    <string name="tv_chon">ເລືືອກ</string>
+
+    <string name="tv_date_send">ວັນທີສົ່ງ: </string>
+    <string name="tv_date_create">ວັັນທີສ້າງ: </string>
+    <string name="tv_person_receive">ຜູ້ຮັບ: </string>
+    <string name="tv_date_receive">ວັນທີີຮັບ: </string>
+    <string name="tv_person_send">ຜູູ້ສົ່ງ: </string>
+    <string name="tv_select">ເລືອກ</string>
+    <string name="tv_file">ເອກະສານ: </string>
+    <string name="tv_action">ແກ້ໄຂ: </string>
+    <string name="tv_send">ສົ່ງແລ້ວ:</string>
+    <string name="tv_draft">ຮ່າງ</string>
+
+    <string name="tv_list_person">ລາຍຊື່ຜູ້ຮັບ: </string>
+    <string name="tv_file_select"><u>ເລືອກໂຟນເດີ</u></string>
+    <string name="SEND_CHIDAO">ສົ່ງບໍລິຫານ</string>
+    <string name="CONGVIEC">ອັບເດດຂໍ້ມູນວຽກ</string>
+    <string name="DETAIL_CHIDAO">ລາຍລະອຽດບໍລິຫານ</string>
+    <string name="INVALID_FILE_EXT">ລະບົບຮອງຮັບພຽງແຕ່ປະເພດເອກະສານ DOC, DOCX, XLS, XLSX, PDF ແລະປະເພດເອກະສານຮູບພາບ</string>
+    <string name="INVALID_FILE_SIZE">ຟາຍເອກະສານບໍ່ເກີນ 50 MB</string>
+    <string name="DUPLICATE_FILE">ສໍາເນົາເອກະສານ, ຟາຍຈະບໍມີໃນລາຍການ</string>
+    <string name="TIEUDE_REQUIERD">ຍັງບໍ່ທັນໃສ່ຫົວຂໍ້</string>
+    <string name="SAVE_CHIDAO_SUCCESS">ບັນທຶກຂໍ້ມູນສຳເລັດ</string>
+    <string name="SAVE_PERSON_CHIDAO_SUCCESS">ອັັບເດດຂໍ້ມູນຜູ້ຮັບສຳເລັດ</string>
+    <string name="SAVE_CHIDAO_ERROR">ອັບເດດຂໍ້ມູນບໍ່ສຳເລັດ</string>
+    <string name="SAVE_PERSON_CHIDAO_ERROR">ອັບເດດຂໍ້ມູນຜູ້ຮັບບໍ່ສຳເລັດ</string>
+    <string name="GET_PERSON_CHIDAO_ERROR">ກູ້ຄືນຂໍ້ມູນຜູ້ຮັບຜິດພາດ</string>
+    <string name="GET_PERSON_GROUP_ERROR">ກູູ້ຄືນກູ່ມຂໍ່ມູນຜູ້ຮັບ ຜິດພາດ</string>
+    <string name="GET_PERSON_IN_GROUP_ERROR">ກູ້ຄືນຂໍ້ມູນກູ່ມລາຍຊື່ຜູ້ຮັບຜິດພາດ</string>
+    <string name="PERSON_REQUIERD">ບໍ່ໄດ້ເລືອກຜູ້ຮັບ</string>
+    <string name="SEND_ALL_BUTTON">ສົ່່ງຫາໝົດທຸກຄົນ</string>
+    <string name="tv_status">ສະຖານະພາບ</string>
+    <string name="tv_sent">ສົ່ງແລ້ວ</string>
+    <string name="tv_not_send">ຍັັງບໍ່ທັນສົ່ງ</string>
+    <string name="tv_not_see">ຍັງບໍ່ໍ່ທັນເບິ່ງ</string>
+    <string name="SEND_CHIDAO_SUCCESS">ຂໍ້ມູນບໍລິຫານສົ່ງສຳເລັດ</string>
+    <string name="SEND_CHIDAO_ERROR">ສົ່ງຂໍ້ມູນບໍລິຫານຜິດພາດ</string>
+    <string name="REMOVE_PERSON_SUCCESS">ຜູ້ໃຊ້ນີ້ແມ່ນລືບອອກຈາກລາຍການແລ້ວ</string>
+    <string name="REMOVE_PERSON_ERROR">ລຶບຊື່ຜູ້ໃຊ້ບໍ່ສໍາເລັດ</string>
+    <string name="GET_FLOW_ERROR">ປ່ຽນລາຍການຜິດພາດ</string>
+    <string name="GET_FILE_ERROR">ລາຍການຄັດຕິດຜິດພາດ</string>
+    <string name="GET_SCHEDULE_BOSS_ERROR">ປ່ະຕິທິນຜິດພາດ</string>
+    <string name="CHIDAO_NOT_FOUND">ບໍ່່ພົບຂໍ້ມູນບໍລິຫານ</string>
+    <string name="SENT_ALL">ສົ່ງຂໍ້ໍມູນບໍລິຫານແລ້ວ</string>
+    <string name="FORWARD_CHIDAO">ຕໍ່ໄປ</string>
+    <string name="REPLY_CHIDAO">ຕອບກັບ</string>
+    <string name="REPLY_ALL_CHIDAO">ຕອບກັັບທັງໝົດ</string>
+    <string name="DELETE_CHIDAO_ERROR">ລຶບຂໍ້ມູນຜິດພາດ</string>
+    <string name="DELETE_CHIDAO_SUCCESS">ລຶບຂໍ້ໍ້ມູນບໍລິຫານສຳເລັດ</string>
+    <string name="LIST_RECEIVE">ລາຍຊື່ຜູ້ຮັບ</string>
+    <string name="tv_ngayxem">ວັນທີເບິ່ງ: </string>
+    <string name="NO_PERSON">ບໍ່ພົບຜົນ</string>
+    <string name="EDIT_CHIDAO">ແກ້ໄຂຂໍ້ມູນບໍລິຫານ</string>
+    <string name="LIST_FILE">ລາຍການຄັັດຕິດ</string>
+    <string name="GET_DETAIL_ERROR">ຂໍ້ໍມູນບໍລິຫານຜິດພາດ</string>
+    <string name="NO_URL_ERROR">ບໍ່ພົົບລິງເອກະສານ</string>
+    <string name="NO_SUPPORT_PDF_ERROR">ອຸປະກອນບໍ່ຮອງຮັບເຄື່ອງອ່ານເອກະສານ PDF</string>
+    <string name="NO_SUPPORT_WORD_ERROR">ອຸປະກອນບໍ່ຮອງຮັບເຄື່ອງອ່ານເອກະສານ WORD</string>
+    <string name="NO_SUPPORT_EXCEL_ERROR">ອຸປະກອນບໍ່ຮອງຮັບເຄື່ອງອ່ານເອກະສານEXCE</string>
+    <string name="SAVE_DRAFT_BTN">ບັນທຶຶກຮ່າງ</string>
+    <string name="BACK_BTN">ກັບຄືນ</string>
+    <string name="SELECT_PERSON_BTN">ເລືືອກຜູ້ຮັບ</string>
+    <string name="SELECT_ADD_PERSON_BTN">ເພີ່ມຜູ້ຮັບ</string>
+    <string name="SEND_BUTTON">ສົ່ງ</string>
+    <string name="NOT_SENT_ALL">ບໍ່ໄດ້ເລືອກຜູ້ຮັບ/ ລອງໃໝ່ອິກຄັ້ງ</string>
+    <string name="SENT_SENDED">Người nhận được chọn đã được gửi. Vui lòng chọn người nhận khác!</string>
+    <string name="NO_DATA_CHIDAO">ບໍ່ພົບຂໍ້ມູນ</string>
+
+    <string name="tv_ketthuc_vanban">ສິ້ນສຸດເອກະສານ</string>
+    <string name="tv_tudong_giaoviec">ມອບວຽກອັດຕະໂນມັດ</string>
+    <string name="str_ERROR_DIALOG">ຜິດພາດ, ລອງໃໝ່ອິກຄັ້ງ</string>
+    <string name="str_ERROR_END_DOCUMENT_DIALOG">Lỗi kết thúc văn bản!</string>
+    <string name="str_ERROR_TICK_DOCUMENT_DIALOG">Lỗi đánh dấu văn bản!</string>
+    <string name="str_ERROR_CHECK_DOCUMENT_DIALOG">Lỗi kiểm tra thông tin văn bản!</string>
+    <string name="str_ERROR_CHANGE_ACCOUNT_DIALOG">Thay đổi account thất bại!</string>
+    <string name="notification_error_ssl_cert_invalid">ຜິດພາດໃນການກວດສອບ SSL, ທ່ານຕ້ອງການສືບຕໍ່ເບິ່ງເອກະສານບໍ່?</string>
+    <string name="tv_ngay_hop">%1$s</string>
+    <string name="DETAIL_LICHHOP">ລາຍລະອຽດຕາຕະລາງກອງປະຊຸມ</string>
+    <string name="title_activity_detail_work_management">DetailWorkManagementActivity</string>
+    <string name="str_ten_cong_viec">ຊື່ວຽກ</string>
+    <string name="str_Unread">Chưa đọc</string>
+    <string name="str_All">Tất cả</string>
+    <string name="str_ten_cong_viec_binding">ຊື່ວຽກ</string>
+    <string name="str_SELECT_ALL">Chọn tất cả</string>
+    <string name="str_FINISH_ALL">Kết thúc hàng loạt</string>
+    <string name="str_SEND_SAME">Chuyển đồng thời</string>
+    <string name="str_cong_viec_don_vi">ຊື່ື່ໜ່ວຍງານ</string>
+    <string name="str_noidung_cong_viec">ລາຍລະອຽດວຽກ</string>
+    <string name="str_noidung_danh_gia">ການໃຫ້ຄະແນນ</string>
+    <string name="str_cap_nhat_tinh_trang_cong_viec">ອັບເດດສະຖານະວຽກ</string>
+    <string name="string_ngay_het_han">ວັນໝົດກຳນົດ</string>
+    <string name="str_file_attatch">ເອກະສານຄັດຕິດ</string>
+    <string name="string_chon_donvi_canhan">ເລືອກໜ່ວຍງານ/ບຸກຄົນທີ່ຈະແກ້ໄຂ</string>
+    <string name="str_danhsach_canhan_donvi">ລາຍຊືີ່ບຸກຄົນ/ໜ່ວຍງານ</string>
+    <string name="string_canhan_donvi_xuly">ເລືອກໜ່ວຍງານ/ບຸກຄົນທີ່ຈະແກ້ໄຂ</string>
+    <string name="str_xin_gia_han">ຂໍການຕໍ່ເວລາ</string>
+    <string name="str_xemthem_trinh_xu_ly">ເບິ່ງການຈັດການແກ້ໄຂ</string>
+    <string name="str_capnhap_tinhtrang">ອັັບເດດສະຖານະພາບ</string>
+    <string name="str_tao_cong_viec">ສ້າງໜ້າວຽກຫຍ່ອຍ</string>
+    <string name="str_thong_tin">ຂໍ່ມຸນ</string>
+    <string name="str_ca_nhan">ບຸກຄົນ</string>
+    <string name="str_cong_viec_con">ວັຽກຫຍ່ອຍ</string>
+    <string name="str_canhan_donvi_thuchien">ເລືອກໜ່ວຍງານ/ບຸກຄົນທີ່ຈະແກ້ໄຂ</string>
+    <string name="txt_xlc_ph_xem">ເລືອກແກ້ໄຂ/ປະສານງານ/ເບິ່ງ</string>
+    <string name="text_icon_delete">&#xf014;</string>
+    <string name="text_sucssess_create_work">ສ້າງໜ້າວຽກຫຍ່ອຍສຳເລັດ</string>
+    <string name="text_sucssess_add_person">ອັບເດດການແກ້ໄຂສຳເລັດ</string>
+    <string name="text_sucssess_update_status_work">ອັບເດດສະຖານະວຽກສຳເລັດ</string>
+    <string name="text_danhgia">ທ່ານຍັງບໍ່ໄດ້ໃສ່ເນື້ອຫາ</string>
+    <string name="text_tencongviec">ທ່ານຍັງບໍ່ໄດ້ໃສ່ຊື່</string>
+    <string name="text_noiduncongviec">You have not entered task content</string>
+    <string name="str_noi_dung_y_kien">ຄຳເຫັນ</string>
+    <string name="str_ngay_het_han">ວັນໝົດກຳນົດ:</string>
+    <string name="str_nhap_ma_otp">ປ້ອນ OTP</string>
+    <string name="str_tai_file_toi_thu_muc">ທ່ານໄດ້ ສຳ ເລັດການດາວໂຫລດເອກະສານເຂົ້າໄປທີ່ </string>
+    <string name="permission_rationale_title">ຂໍອະນຸຍາດສະໝັກ</string>
+    <string name="permission_rationale_message">ການອະນຸຍາດນີ້ ຈຳ ເປັນຕ້ອງໃຊ້ ໜ້າ ວຽກນີ້, ກະລຸນາເປີດໃຊ້ງານມັນ!</string>
+    <string name="str_dialog_thongbao"> ແຈ້ງການ </string>
+    <string name="str_dialog_kythanhcong">ເຊັນສຳເລັດ</string>
+    <string name="str_dialog_kychuathanhcong"> ເຊັັນບໍສຳເລັດ</string>
+    <string name="str_dialog_resend_otp_faild"> ບໍ່ສຳເລັດສົ່ງ OTP!</string>
+    <string name="DOWNLOADING">ກະລຸນາລໍຖ້າ</string>
+    <string name="str_button_tieptuchucnang"> ທ່່ານຕ້ອງການ ສືບຕໍ່ບໍ?</string>
+    <string name="str_button_tieptuc"> ສຶບຕໍ່</string>
+    <string name="str_button_quaylai"> ກັບຄືນ</string>
+
+    <string name="str_err_400">ເຄື່ອງເກັບຂໍ້ມູນກຳລັງປະມນຜົນ ຄຳຮອງຂໍ. ກະລຸຸນາລອງອີກຄັ້ງ</string>
+
+    <string name="str_chuachon_xlc">ການມອບວຽກຈະຕ້ອງມອບໃຫ້ສ່ວນບຸກຄົນ/ໜ່ວຍງານຫຼັກ</string>
+    <string name="text_sucssess_create_work_new">ສ້າງວຽກໃໝ່ສຳເລັດ</string>
+    <string name="text_title_create_work_new">ສ້າງວຽກໃໝ່</string>
+    <string name="check_create_work_new">ທ່ານຕ້ອງປ້ອນວັນທີກຳນົດກ່ອນເລືອກ ໜ່ວຍງານ/ບຸກຄົນ</string>
+
+    <string name="str_tai_tep_tin">ດາວໂຫຼດເອກະສານ</string>
+    <string name="check_ten_cong_viec">ຊື່ວຽກບໍ່ຕ້ອງປະໃຫ້ວ່າງ!</string>
+    <string name="check_chon_don_vi">Giao việc cần phải chọn vào cá nhân/đơn vị !</string>
+    <string name="check_noidung_cong_viec">ຊື່ເນື້ອຫາ ບໍ່ຕ້ອງປະໃຫ້ວ່າງ !</string>
+    <string name="check_ngay_het_han_cong_viec">ວັນທີກຳນົດບໍ່ຕ້ອງປະໃຫ້ວ່າງ !</string>
+
+    <string name="str_web">ກະລຸນາເຂົ້າເວບໄຊ ເພື່ອແກ້ໄຂການແຈ້ງເຕືອນນີ້ !</string>
+    <string name="str_error">ຜິດພາດ ກພລຸນາລອງອີກຄັ້ງ!</string>
+
+    <string name="str_language">Chọn ngôn ngữ</string>
+    <string name="str_vn">ພາສາຫວຽດນາມ</string>
+    <string name="str_en">ພາສາອັງກິດ</string>
+    <string name="str_ls">ພາສາລາວ</string>
+
+    <string name="tv_capnhat">ອັບເດດ</string>
+    <string name="tv_dong">ປິດ</string>
+    <string name="tv_tai_tep">ດາວໂຫຼດຟາຍ</string>
+    <string name="tv_tao_congviec">ສ້າງໜ້າວຽກໃໝ່</string>
+    <string name="tv_xemthem">ເບິ່ງຕື່ມ</string>
+    <string name="tv_chuyentiep">ສົ່ງຕໍ່</string>
+    <string name="tv_traloi">ຕອບກັບ</string>
+    <string name="tv_traloi_tatca">ຕອບກັບທຸກຄົນ</string>
+    <string name="tv_guitoi">ສ່ງໄປຫາ:</string>
+    <string name="tv_danhdau">ເຄື່ອງໝາຍ</string>
+    <string name="tv_chuyen_xemdebiet">ສົ່ງໄປເພື່ອເບິ່ງຢ່າງດຽວ</string>
+    <string name="tv_lichsu">ປະຫວັດ</string>
+    <string name="tv_chuyen_xuly">ສົ່ງໄປເພື່ອແກ້ໄຂ</string>
+    <string name="tv_chuyen">ສົ່ງ</string>
+    <string name="tv_cho_ykien">ຝາກຄຳເຫັນໄວ້</string>
+    <string name="tv_bo_danhdau">ບໍ່ມີເຄື່ອງໝາຍ</string>
+    <string name="tv_ketthuc">ສິ້ນສຸດ</string>
+    <string name="tv_thamgia">ຜູ້ເຂົ້າຮ່ວມ:</string>
+    <string name="tv_diadiem">ສະຖານທີ່:</string>
+    <string name="tv_ngay_giaoviec">ວັນທີມອບວຽກ: </string>
+    <string name="tv_ngay_hethan">ວັນກຳນົດ: </string>
+    <string name="tv_do_uutien">ລຳດັບຄວາມສຳຄັນ: </string>
+    <string name="tv_trangthai_danhgia">ຈັດອັນດັບສະຖານະພາບ</string>
+    <string name="tv_noidung_danhgia">ຈັດອັນດັບເນື້ອຫາ</string>
+    <string name="tv_thongtin">ຂໍ້ມູນ:</string>
+    <string name="tv_gan_nguoidung">ຕິດຕາມຜູ້ໃຊ້:</string>
+    <string name="tv_gui_thongbao">ສົ່ງແຈ້ງເຕືອນ</string>
+    <string name="tv_vuilong_doi">ກະລຸນາລໍຖ້າ</string>
+    <string name="tv_gui_sms">ສົ່ງຂໍ້ຄວາມ</string>
+    <string name="tv_capnhat_thongtin">ອັບເດດຂໍ້ມູນວຽກ</string>
+    <string name="tv_ngay_het_han">ວັນທີກຳນົດ</string>
+    <string name="tv_luu">ບັນທຶກ</string>
+    <string name="tv_mau">ແບບຢ່າງ</string>
+    <string name="tv_xoa">ລຶບ</string>
+    <string name="tv_khong_dulieu">ບໍ່ມີຂໍ້ມູນ</string>
+    <string name="tv_chon_theonhom">ເລືອກກຸ່ມ</string>
+    <string name="tv_chon_theonhom_canhan">ເລືອກບຸກຄົນ</string>
+    <string name="tv_chon_nguoinhan">ກົດເລືອກຜຸ້ຮັບ</string>
+    <string name="tv_thugon">ລົ່ມ</string>
+    <string name="tv_nhan_chon">ກົດເລືອກໜ່ວຍງານພາຍໃນ</string>
+    <string name="tv_nhan_chon_nguoinhan"> ກົດເລືອກຜູ້ຮັບ</string>
+    <string name="tv_giu_3s">ລໍຖ້າ3ວິນາທີເພື່ອເພື່ອສົ່ງພ້ອມກັນ</string>
+    <string name="tv_chon_lienthong">ກົດເລືອກໜ່ວຍງານພາຍໃນ</string>
+    <string name="tv_tai_lentep">ດາວໂຫຼດເອກະສານ</string>
+    <string name="tv_dangnhap_web">ເຂົາສຸ້ລະບົບ</string>
+    <string name="tv_danhgia_congviec">ຈັດອັນດັບວຽກ</string>
+    <string name="tv_gui_ykien">ສົ່ງຄຳເຫັນ</string>
+    <string name="tv_cho_ykien_vanban">ຝາກຄຳເຫັນໄວ້ ສຳລັບເອກະສານນີ້</string>
+    <string name="tv_chon_donvi">ເລືອກໜ່ວຍງານ</string>
+    <string name="tv_chon_canhan">ເລືອກບຸກຄົນ</string>
+    <string name="tv_ten_donvi">ຊື່ໜ່ວຍງານ</string>
+    <string name="tv_tinhtrang_xuly">ກຳລັງແກ້ໄຂສະຖານະພາບ: </string>
+    <string name="tv_ngay_batdau">ເລີ່ມວັນທີ:  </string>
+    <string name="tv_donvi_xuly">ແກ້ໄຂໜ່ວຍງານ/ບຸກຄົນ:  </string>
+    <string name="tv_vaitro">ແກ້ໄຂ:  </string>
+    <string name="tv_tinhtrang">ສະຖານະພາບ:  </string>
+    <string name="tv_ngay_ketthuc">ວັນທີສິ້ນສຸດ: </string>
+    <string name="tv_sang">ຕອນເຊົ້າ </string>
+    <string name="tv_chieu">ຕອນແລງ </string>
+    <string name="tv_khongco_lich">ບໍ່ມີຕາຕະລາງປະຊຸມ </string>
+    <string name="tv_ghichu">ບັນທຶກ</string>
+    <string name="tv_dc">ເພີ່ມຕຶ່ມ:</string>
+    <string name="tv_sang_lich">ຕອນເຊົ້າ:</string>
+    <string name="tv_chieu_lich">ຕອນແລງ:</string>
+    <string name="tv_chuagui">ຍັງບໍ່ທັນສົ່ງ</string>
+    <string name="tv_dongy">ຕົກລົງ</string>
+    <string name="tv_guilai_otp">ສົ່ງໃໝ່OTP</string>
+    <string name="tv_huy">ຍົກເລີກ</string>
+    <string name="tv_lanhdao_giaoviec">ມອບໝາຍວຽກຈາກຜູ້ບໍລິຫານ:</string>
+    <string name="tv_mucdo_uutien">ລຳດັບຄວາມສຳຄັນ:</string>
+
+    <string name="str_themnguoi_xuly">ເພິ່ມຜູ້ແກ້ໄຂ</string>
+    <string name="str_chon_donvi_canhan">ທ່ານຕ້ອງເລືອກ ໜ່ວຍງານຫຼັກ/ ບຸກຄົນ</string>
+    <string name="str_tao_congviec_con">ສ້າງວຽກຫຍ່ອຍ</string>
+    <string name="str_nhap_lieu">ທ່ານຕ້ອງປ້ອນຊຶ່ວຽກ, ເນື້ອຫ, ວັນທີກຳນົດ</string>
+    <string name="str_ban">ທ່ານ</string>
+    <string name="str_va">ແລະ</string>
+    <string name="str_nguoi_khac">ອຶ່ນໆ</string>
+    <string name="str_rutgon">ທາງລັດ</string>
+    <string name="str_xemthem">ເບິ່ງຕື່ມ</string>
+    <string name="str_huy_danhgiau">ບໍ່ມີເຄື່ອງໝາຍ</string>
+    <string name="str_danhgiau">ການໝາຍ</string>
+    <string name="str_thuong">ທົ່ວໄປ</string>
+    <string name="str_khong_chuyenduoc">ບໍ່ສາມາດສົ່ງຟາຍເອກະສານໄດ້</string>
+    <string name="str_da_hoanthanh">ສຳເລັດ</string>
+    <string name="str_cho_pheduyet">ລໍຖ້າອະນຸຸມັດ</string>
+    <string name="str_da_pheduyet">ອະນຸມັດແລ້ວ</string>
+    <string name="str_chua_hoanthanh">ບໍ່ສຳເລັດ</string>
+    <string name="str_chitiet_congviec">ລາຍລະອຽດວຽກ</string>
+    <string name="str_co_filetrung">ສຳເນົາເອກະສານ</string>
+    <string name="str_khongthay_danhsach">ບໍ່ພົບລາຍຊື່ຜູ້ຮັບ</string>
+    <string name="str_tientrinh_xuly">ການແກ້ໄຂ</string>
+    <string name="str_loidongbo">ການຕິດຕໍ່ພ້ອມກັນ ຜິດພາດ</string>
+    <string name="str_cho_xuly">ລໍຖ້າອແກ້ໄຂ</string>
+    <string name="str_dang_xuly">ກຳລັງແກ້ໄຂ</string>
+    <string name="str_da_xuly">ແກ້ໄຂແລ້ວ</string>
+    <string name="str_vuilong_capnhat">ກະລຸນາເຂົ້າເວບໄຊ ເພື່ອແກ້ໄຂການແຈ້ງເຕືອນນີ້</string>
+    <string name="str_chon_theonhom">ເລືອກກຸ່ມຜູ້ຮັບ</string>
+    <string name="str_chon_theonhom_donvi">ເລືອກກຸ່ມໜ່ວຍງານຜູ້ຮັບ</string>
+    <string name="str_ngay_hethan">ໜ່ວຍງານ/ບຸກຄົນ ວັນທີກຳນົດ:</string>
+    <string name="str_nho_hon">ຕ້ອງນ້ອຍກ່ວາ ໂດຍທົ່ວໄປ !</string>
+    <string name="str_capnhat_tinhtrang">ອັບເດດສະຖານະວຽກ</string>
+    <string name="str_ky_thanhcong">ເຊັນສຳເລັດ !</string>
+    <string name="str_ky_khong_thanhcong">ເຊັນບໍ່ສຳເລັດ !</string>
+    <string name="str_nhap_otp">ກະລຸນປ້ອນOTP !</string>
+    <string name="str_gui_otp_thanhcong">OTP ຖືກສົ່ງແລ້ວ !</string>
+    <string name="str_gui_danhgia_thanhcong">ການຈັດອັບດັບຖືກສົ່ງແລ້ວ</string>
+    <string name="str_tatca">ທັງໝົດ</string>
+    <string name="str_viec_canhan">ວຽກສ່ວນບຸກຄົນ</string>
+    <string name="str_viec_donvi">ວຽກຫນ່ວຍງານ</string>
+    <string name="str_tieptuc">ສຶບຕໍ່</string>
+    <string name="str_huybo">ຍົກເລີກ</string>
+    <string name="str_sua">ແກ້ໄຂ</string>
+    <string name="str_xoa">ລຶບ</string>
+    <string name="str_dagui">ສົ່ງແລ້ວ</string>
+
+</resources>

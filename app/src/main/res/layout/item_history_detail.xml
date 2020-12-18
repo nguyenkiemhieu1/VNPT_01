@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:paddingTop="@dimen/_3dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/md_red_900"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:textColor="@color/md_red_900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtDate_label"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_red_900"
+                    android:text="@string/tv_thoigian_label"/>
+                <TextView
+                    android:textColor="@color/md_red_900"
+                    android:id="@+id/txtDate"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="06/12/2015 09:30"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtChuyenToi_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_red_900"
+                    android:text="@string/tv_chuyentoi_xl"/>
+
+                <TextView
+                    android:id="@+id/txtChuyenToi"
+                    android:textColor="@color/md_red_500"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Lãnh đạo đơn vị"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtDongGui_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_red_900"
+                    android:text="@string/tv_donggui_xl"/>
+
+                <TextView
+                    android:id="@+id/txtDongGui"
+                    android:textColor="@color/md_red_500"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Lãnh đạo QH"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtChuyenXL_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/backgroundBlue"
+                    android:text="@string/tv_chuyen_xl"/>
+
+                <TextView
+                    android:id="@+id/txtChuyenXL"
+                    android:textColor="@color/backgroundBlue"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Lãnh đạo Lệ thủy"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtXinykien_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_red_800"
+                    android:text="@string/tv_xin_y_kien"/>
+
+                <TextView
+                    android:id="@+id/txtXinykien"
+                    android:textColor="@color/md_red_500"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Lãnh đạo Lệ thủy"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtThaoTac_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_blue_900"
+                    android:text="@string/tv_thaotac_xl"/>
+
+                <TextView
+                    android:id="@+id/txtThaoTac"
+                    android:textColor="@color/md_red_900"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Chuyển Lãnh đạo đơn vị"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtNoiDung_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_blue_900"
+                    android:text="@string/tv_noidung_xl"/>
+
+                <TextView
+                    android:id="@+id/txtNoiDung"
+                    android:textColor="@color/md_red_500"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Chuyển Lãnh đạo đơn vị"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:background="@color/md_grey_200" />
+
+</LinearLayout>

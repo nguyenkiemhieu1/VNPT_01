@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5dp"
+    android:background="@drawable/background_border_list"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/_8dp"
+    android:paddingBottom="@dimen/_8dp">
+
+    <LinearLayout
+        android:id="@+id/itemDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/md_black"
+                    android:textSize="@dimen/_18sp"
+                    android:textStyle="bold"
+                    tools:text="@string/XU_LY_CHINH" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/md_blue_a700"
+                    tools:text="12/05/2017" />
+
+                <TextView
+                    android:id="@+id/tv_urge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:gravity="center"
+                    tools:text="Đôn đốc"
+                    android:textColor="@color/md_red_a700"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_5dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_6dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/md_black"
+                android:textSize="@dimen/_16sp"
+                android:textStyle="bold"
+                tools:text="Ban hanh quy che dam bao an toan thong tin trong hoat dong ung dung cong nghe thong tin" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_trang_thai_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_trangthai"
+                    android:textColor="@color/colorTextGrey" />
+
+                <TextView
+                    android:id="@+id/tv_trang_thai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_black"
+                    tools:text="Mới chưa xem" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_lanhdao_giaoviec"
+                    android:textColor="@color/colorTextGrey" />
+
+                <TextView
+                    android:id="@+id/tv_lead_assign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextGrey"
+                    tools:text="123" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_file_dinh_kem"
+                    android:textColor="@color/colorTextGrey" />
+
+                <ImageView
+                    android:id="@+id/img_file_dinh_kem"
+                    android:layout_width="@dimen/_36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_link_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_mucdo_uutien"
+                    android:textColor="@color/colorTextGrey" />
+
+                <TextView
+                    android:id="@+id/tv_priority_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/_5dp"
+                    android:textColor="@color/colorTextGrey"
+                    tools:text="VNPT Software" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_ngay_het_han"
+                    android:textColor="@color/colorTextGrey" />
+
+                <TextView
+                    android:id="@+id/tv_date_finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextGrey"
+                    tools:text="11/12/2017" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_tinhtrang"
+                    android:textColor="@color/colorTextGrey" />
+
+                <TextView
+                    android:id="@+id/tv_status_doc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextGrey"
+                    tools:text="Thường mật" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

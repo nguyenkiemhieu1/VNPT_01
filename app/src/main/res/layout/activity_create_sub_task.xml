@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white"
+    android:orientation="vertical"
+    tools:context=".view.activity.CreateSubTaskActivity">
+
+    <include
+        android:id="@+id/toolbarDetail"
+        layout="@layout/toolbar_send_chidao" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_16dp">
+
+            <Spinner
+                android:id="@+id/spin_assign_task"
+                style="@style/spinner_style_radius"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:padding="@dimen/_10dp">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/edt_name_child_work"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="@color/md_black"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:hint="@string/str_ten_cong_viec_binding"
+                android:padding="@dimen/_10dp"
+                android:textColorHint="@color/md_grey_700">
+                </EditText>
+
+            <EditText
+                android:id="@+id/edt_content_child_work"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:gravity="left"
+                android:hint="@string/str_noidung_cong_viec"
+                android:padding="@dimen/_10dp"
+                android:textColor="@color/md_black"
+                android:textColorHint="@color/md_grey_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/str_file_attatch"
+                    android:textColor="@color/md_black" />
+
+                <ImageView
+                    android:id="@+id/image_upload_file"
+                    android:layout_width="@dimen/_32dp"
+                    android:layout_height="@dimen/_32dp"
+                    android:layout_marginLeft="@dimen/_8dp"
+                    android:padding="@dimen/_4dp"
+                    android:src="@drawable/ic_file_attach"
+                    android:tint="@color/colorPrimary"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_file_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <Spinner
+                android:id="@+id/spin_work_level"
+                style="@style/spinner_style_radius"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:padding="@dimen/_5dp" />
+
+            <EditText
+                android:id="@+id/edt_date_finish"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_16dp"
+                android:background="@drawable/background_border_radius"
+                android:drawableRight="@drawable/ic_date_chidao"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:hint="@string/string_ngay_het_han"
+                android:paddingLeft="@dimen/_5dp"
+                android:textColor="@color/md_black"
+                android:textColorHint="@color/md_grey_700"
+                android:textSize="@dimen/_14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:text="@string/string_chon_donvi_canhan"
+                android:textColor="@color/md_black" />
+
+            <EditText
+                android:id="@+id/spin_unit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                android:focusable="false"
+                android:padding="@dimen/_10dp"
+                android:text="@string/UNIT_ACCOUNT"
+                android:textColor="@color/md_grey_700" />
+
+            <EditText
+                android:id="@+id/spin_person"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_border_radius"
+                android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                android:focusable="false"
+                android:padding="@dimen/_10dp"
+                android:text="@string/str_ca_nhan"
+                android:textColor="@color/md_grey_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_danhsach_canhan_donvi"
+                android:textColor="@color/md_black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:background="@drawable/background_border_top"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/string_canhan_donvi_xuly" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/string_ngay_het_han" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/md_black" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_unit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_create_work"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_16dp"
+                android:paddingLeft="@dimen/_20dp"
+                android:paddingTop="@dimen/_10dp"
+                android:paddingRight="@dimen/_20dp"
+                android:paddingBottom="@dimen/_10dp"
+                android:text="@string/tv_tao_congviec"
+                fancy:fb_defaultColor="@color/md_blue_a700"
+                fancy:fb_radius="@dimen/_5dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

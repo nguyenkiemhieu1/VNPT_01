@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
+            android:text="Mẫu nhập"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_dismiss_dialog"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/error" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_form_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/md_black"
+        android:dividerHeight="0.5dp">
+
+    </ListView>
+
+</LinearLayout>

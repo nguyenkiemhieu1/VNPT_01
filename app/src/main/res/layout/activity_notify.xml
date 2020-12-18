@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_grey_200"
+    tools:context=".view.activity.NotifyActivity">
+    <include
+        android:id="@+id/toolbar_notify"
+        layout="@layout/toolbar_notify" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/tickAll"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8dp"
+                android:layout_weight="1"
+                android:text="Tất cả"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sp"
+                android:paddingLeft="@dimen/_5dp"
+                android:textColor="@color/md_black"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/tickReaded"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_8dp"
+                android:text="Đã đọc"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sp"
+                android:paddingRight="@dimen/_5dp"
+                android:textColor="@color/md_blue_800"
+                android:gravity="right|center_vertical"/>
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txtNoData"
+            android:layout_marginTop="@dimen/_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/md_black"
+            android:textAlignment="center"
+            android:textSize="@dimen/_16sp"
+            android:text="@string/NO_NOTIFY"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@id/rcvDanhSach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/md_white"
+    android:id="@+id/itemChiDao">
+
+    <TextView
+        android:id="@+id/txtSubject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="@dimen/_8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/arial"
+        android:maxLines="3"
+        android:textColor="@color/md_grey_800"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/img_click"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Ban hanh quy che dam bao an toan thong tin trong hoat dong ung dung cong nghe thong tin" />
+
+    <ImageView
+        android:id="@+id/img_click"
+        android:layout_width="@dimen/_32dp"
+        android:layout_height="@dimen/_32dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="@dimen/_8dp"
+        android:src="@drawable/ic_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8dp"
+        android:layout_weight="5"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/md_red_800"
+        app:layout_constraintEnd_toStartOf="@+id/img_click"
+        app:layout_constraintStart_toStartOf="@+id/barrier3"
+        app:layout_constraintTop_toTopOf="@+id/tv_date_label"
+        tools:text="12/04/2018" />
+
+    <TextView
+        android:id="@+id/tv_date_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="2.2"
+        android:fontFamily="@font/arial"
+        android:text="@string/tv_date_receive"
+        android:textColor="@color/md_grey_600"
+        app:layout_constraintStart_toStartOf="@+id/txtSubject"
+        app:layout_constraintTop_toBottomOf="@+id/txtSubject" />
+
+    <TextView
+        android:id="@+id/tv_person_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="2.2"
+        android:fontFamily="@font/arial"
+        android:text="@string/tv_person_send"
+        android:textColor="@color/md_grey_600"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/tv_date_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+    <TextView
+        android:id="@+id/tv_person"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="5"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/md_grey_900"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/img_click"
+        app:layout_constraintStart_toStartOf="@+id/barrier3"
+        app:layout_constraintTop_toTopOf="@+id/tv_person_label"
+        tools:text="Demo" />
+
+    <TextView
+        android:id="@+id/tv_status_lable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="2.2"
+        android:fontFamily="@font/arial"
+        android:text="@string/tv_trangthai"
+        android:textColor="@color/md_grey_600"
+        app:layout_constraintStart_toStartOf="@+id/tv_person_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_person" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="5"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/md_grey_900"
+        app:layout_constraintEnd_toStartOf="@+id/img_click"
+        app:layout_constraintStart_toStartOf="@+id/barrier3"
+        app:layout_constraintTop_toTopOf="@+id/tv_status_lable"
+        tools:text="Soạn thảo" />
+
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/tv_file_lable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="2.2"
+        android:fontFamily="@font/arial"
+        android:text="@string/tv_tep_dinh_kem"
+        android:textColor="@color/md_grey_600"
+        app:layout_constraintStart_toStartOf="@+id/tv_status_lable"
+        app:layout_constraintTop_toBottomOf="@+id/tv_status" />
+
+    <ImageView
+        android:id="@+id/img_file_dinh_kem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="8dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_link_black_24dp"
+        app:layout_constraintStart_toStartOf="@+id/barrier3"
+        app:layout_constraintTop_toTopOf="@+id/tv_file_lable" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="tv_date_label,tv_person_label,tv_status_lable,tv_file_lable"
+        tools:layout_editor_absoluteX="361dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px"
+        android:background="@color/md_grey_400"
+        android:layout_marginTop="@dimen/_8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_file_lable"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

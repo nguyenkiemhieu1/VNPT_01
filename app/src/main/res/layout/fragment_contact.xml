@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".view.fragment.ContactFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:paddingLeft="@dimen/_10dp"
+        android:paddingRight="@dimen/_10dp"
+        android:paddingBottom="@dimen/_8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/background_border"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35dp">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_6dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search"/>
+
+            <EditText
+                android:id="@+id/edtKeyword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_3dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/HINT_SEARCH_CONTACT"
+                android:textColor="@color/md_black"
+                android:textColorHint="@color/colorHint" />
+        </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txtNoData"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="@color/md_black"
+            android:textAlignment="center"
+            android:textSize="@dimen/_16sp"
+            android:text="@string/NO_CONTACT"/>
+        <ScrollView
+            android:id="@+id/layoutDisplay"
+            android:layout_marginTop="@dimen/_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/_10dp"
+            android:paddingRight="@dimen/_10dp"
+            android:paddingBottom="@dimen/_10dp">
+            <LinearLayout
+                android:id="@+id/layout_contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_10dp">
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

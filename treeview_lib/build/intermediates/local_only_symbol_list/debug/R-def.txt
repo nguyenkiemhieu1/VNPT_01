@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+color md_cyan_900
+color md_grey_200
+color md_white
+string app_name
